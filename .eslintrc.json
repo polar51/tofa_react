@@ -1,0 +1,54 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["plugin:react/recommended", "airbnb"],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+    },
+    "requireConfigFile": false,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "react-hooks"],
+  "rules": {
+    "react/no-array-index-key": "off",
+    "import/no-unresolved": "off",
+    "linebreak-style": 0,
+    "react/forbid-prop-types": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "react/no-unstable-nested-components": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-wrap-multilines": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error",
+    "react/jsx-no-useless-fragment": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-one-expression-per-line": 0,
+    "react/prop-types": 0,
+    "import/prefer-default-export": 0,
+    "comma-dangle": "off",
+    "react/function-component-definition": 0,
+    "arrow-parens": "off",
+    "no-plusplus": "off",
+    "no-param-reassign": "error",
+    "no-unused-vars": "warn",
+    "no-debugger": "warn",
+    "no-console": "warn",
+    "no-void": "error",
+    "implicit-arrow-linebreak": "off",
+    "arrow-body-style": "off",
+    "no-use-before-define": "off",
+    "no-confusing-arrow": "off",
+    "operator-linebreak": "off",
+    "import/no-extraneous-dependencies": "off",
+    "object-curly-newline": "off"
+  }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#0E1F4C;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#0E1F4C;stroke-width:32;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M90.7,91.7l23,367.3c1.1,21.2,16.5,36.7,36.7,36.7h211.2c20.3,0,35.4-15.5,36.7-36.7l23-367.3"/>
+<line class="st1" x1="54" y1="91.7" x2="458" y2="91.7"/>
+<path class="st0" d="M182.5,91.7V45.8l0,0c0-15.2,12.2-27.5,27.4-27.5c0.1,0,0.1,0,0.2,0h91.8c15.2,0,27.5,12.2,27.5,27.4
+	c0,0.1,0,0.1,0,0.2l0,0v45.9"/>
+<line class="st0" x1="256" y1="165.2" x2="256" y2="422.3"/>
+<line class="st0" x1="173.4" y1="165.2" x2="182.5" y2="422.3"/>
+<line class="st0" x1="338.6" y1="165.2" x2="329.5" y2="422.3"/>
+</svg>

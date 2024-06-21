@@ -1,25 +1,43 @@
-import logo from './logo.svg';
+import React, { lazy, Suspense } from 'react';
 import './App.css';
+import './default.css';
+import { QueryClientProvider, QueryClient } from '@tanstack/react-query';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import NavigationBar from './layouts/navigationBar/NavigationBar';
+import Spinner from './components/element/Spinner';
 
-function App() {
+const FaultModeling = lazy(() => {
+  return import('./pages/fault-modeling/FaultModeling');
+});
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 1000 * 60 * 5,
+      retry: 0,
+      suspense: true,
+      useErrorBoundary: true,
+    },
+    mutations: {
+      useErrorBoundary: true,
+    },
+  },
+});
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <QueryClientProvider client={queryClient}>
+        <div id="wrap">
+          <NavigationBar />
+          <Suspense fallback={<Spinner />}>
+            <FaultModeling />
+          </Suspense>
+        </div>
+        <ReactQueryDevtools initialIsOpen={false} />
+      </QueryClientProvider>
+    </>
   );
-}
+};
 
 export default App;
