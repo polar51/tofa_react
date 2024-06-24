@@ -11,7 +11,7 @@ const getWeather = () => {
 const getWeatherIcon = () => {
   return axiosInstance({
     method: 'GET',
-    url: '/tofa_react/weather.json',
+    url: '/weather.json',
   });
 };
 
