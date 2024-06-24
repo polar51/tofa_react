@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { useFormContext, useWatch } from 'react-hook-form';
 import { useVirtualizer } from '@tanstack/react-virtual';
-import { useFaultModelingList } from '../../hooks/api';
+import { useFaultModelingList } from '@hooks/api';
 
 const EmptyRowCreator = () => {
   return (

@@ -1,9 +1,9 @@
 import React, { useCallback, useEffect, useRef } from 'react';
 import { useVirtualizer } from '@tanstack/react-virtual';
 import { useFormContext, useWatch } from 'react-hook-form';
-import { useFaultList, useFleetIdList } from '../../hooks/api';
+import { FAULTMODELING } from '@constants/index';
+import { useFaultList, useFleetIdList } from '@hooks/api';
 import FaultCodeTable from './FaultCodeTable';
-import { FAULTMODELING } from '../../constants/index';
 
 const FleetIdButtonCreator = ({ id, idx, ...rest }) => {
   const { fleetId } = id;

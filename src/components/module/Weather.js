@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { useWeatherGet, useWeatherIconGet } from '../../hooks/api/weather-hook';
+import { useWeatherGet, useWeatherIconGet } from '@hooks/api/weather-hook';
 import styles from './styles.module.css';
 
 const Weather = () => {

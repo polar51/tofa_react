@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import btIqSearch from '../../assets/images/bt_iq_search.png';
-import hideBtn from '../../assets/images/hideBtn.png';
+import btIqSearch from '@assets/images/bt_iq_search.png';
+import hideBtn from '@assets/images/hideBtn.png';
 
 const SearchIcon = ({ text, ...props }) => {
   return <a {...props}>{text}</a>;

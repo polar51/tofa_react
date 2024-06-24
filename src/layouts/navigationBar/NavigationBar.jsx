@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import logo from '../../assets/images/logo.png';
-import bell from '../../assets/images/ic_bell_wh_off.png';
-import Weather from '../../components/module/Weather';
+import logo from '@assets/images/logo.png';
+import bell from '@assets/images/ic_bell_wh_off.png';
+import Weather from '@components/module/Weather';
 
 const NavigationBar = () => {
   const [time, setTime] = useState('00:00:00');

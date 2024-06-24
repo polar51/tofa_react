@@ -1,12 +1,12 @@
 import { useInfiniteQuery, useQuery } from '@tanstack/react-query';
-import { faultModelingApi } from '../../api/index';
+import { faultModelingApi } from '@api/index';
 import {
   FAULT,
   MODELING,
   FLEET_ID,
   FREQUENCY,
   FAULT_MODELING_TREND,
-} from '../../constants/query-key-factory';
+} from '@constants/query-key-factory';
 
 const useFaultModelingList = filter => {
   const copyFilter = { ...filter };

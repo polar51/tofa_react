@@ -1,7 +1,7 @@
 import React from 'react';
+import { useFaultModelingTrendGet } from '@hooks/api/fault-modeling-hook';
 import BreakdownCharts from './BreakdownCharts';
 import EmptyCharts from './EmptyCharts';
-import { useFaultModelingTrendGet } from '../../hooks/api/fault-modeling-hook';
 
 const Breakdown = () => {
   const { data } = useFaultModelingTrendGet();

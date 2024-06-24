@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { stringify } from '../lib/qs';
+import { stringify } from '@lib/qs';
 
 const listFaultModeling = async filter => {
   const query = stringify(filter);

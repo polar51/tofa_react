@@ -1,10 +1,10 @@
 import React, { lazy, Suspense, useCallback, useState } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
+import SearchButton from '@components/module/SearchButton';
+import Spinner from '@components/element/Spinner';
+import { FAULTMODELING } from '@constants/index';
 import Breakdown from './Breakdown';
 import Probability from './Probability';
-import SearchButton from '../../components/module/SearchButton';
-import Spinner from '../../components/element/Spinner';
-import { FAULTMODELING } from '../../constants/index';
 
 const defaultFilterOptions = {
   protocol_type: FAULTMODELING.PROTOCOL_TYPE,
@@ -72,9 +72,11 @@ const FaultModeling = () => {
               </div>
               <Suspense fallback={<Spinner />}>
                 <SideBar>
-                  <SearchButton onClick={handleSidebarShow} $show={showSidebar}>
-                    검색
-                  </SearchButton>
+                  <SearchButton
+                    onClick={handleSidebarShow}
+                    $show={showSidebar}
+                    text="검색"
+                  />
                 </SideBar>
               </Suspense>
             </div>
