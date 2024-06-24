@@ -35,9 +35,9 @@
     "prepare": "husky install",
     "lint-staged": "lint-staged",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "homepage": "https://polar51.github.io/tofa_react/"
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://polar51.github.io/tofa_react/",
   "eslintConfig": {
     "extends": [
       "react-app",
