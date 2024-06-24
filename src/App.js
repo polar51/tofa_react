@@ -3,6 +3,7 @@ import './App.css';
 import './default.css';
 import { QueryClientProvider, QueryClient } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { BrowserRouter } from 'react-router-dom';
 import NavigationBar from './layouts/navigationBar/NavigationBar';
 import Spinner from './components/element/Spinner';
 
@@ -27,15 +28,17 @@ const queryClient = new QueryClient({
 const App = () => {
   return (
     <>
-      <QueryClientProvider client={queryClient}>
-        <div id="wrap">
-          <NavigationBar />
-          <Suspense fallback={<Spinner />}>
-            <FaultModeling />
-          </Suspense>
-        </div>
-        <ReactQueryDevtools initialIsOpen={false} />
-      </QueryClientProvider>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <QueryClientProvider client={queryClient}>
+          <div id="wrap">
+            <NavigationBar />
+            <Suspense fallback={<Spinner />}>
+              <FaultModeling />
+            </Suspense>
+          </div>
+          <ReactQueryDevtools initialIsOpen={false} />
+        </QueryClientProvider>
+      </BrowserRouter>
     </>
   );
 };
