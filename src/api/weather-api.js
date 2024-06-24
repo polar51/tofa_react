@@ -1,4 +1,5 @@
 import axios from 'axios';
+import axiosInstance from '../utils/http-client';
 
 const getWeather = () => {
   return axios({
@@ -8,7 +9,7 @@ const getWeather = () => {
 };
 
 const getWeatherIcon = () => {
-  return axios({
+  return axiosInstance({
     method: 'GET',
     url: '/tofa_react/weather.json',
   });
