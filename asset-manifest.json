@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/tofa_react/static/css/main.627e9920.css",
+    "main.js": "/tofa_react/static/js/main.b25f19f4.js",
+    "static/js/786.6286fd19.chunk.js": "/tofa_react/static/js/786.6286fd19.chunk.js",
+    "static/js/390.56f27b59.chunk.js": "/tofa_react/static/js/390.56f27b59.chunk.js",
+    "static/js/665.be721a7b.chunk.js": "/tofa_react/static/js/665.be721a7b.chunk.js",
+    "static/js/262.39bb4903.chunk.js": "/tofa_react/static/js/262.39bb4903.chunk.js",
+    "static/js/474.907331b0.chunk.js": "/tofa_react/static/js/474.907331b0.chunk.js",
+    "static/media/iconfont.svg?t=1519785387995": "/tofa_react/static/media/iconfont.d8b6be856bc7471f0982.svg",
+    "static/media/ps_error503.png": "/tofa_react/static/media/ps_error503.46af1015db49240b48f4.png",
+    "static/media/ps_inspection.png": "/tofa_react/static/media/ps_inspection.74d1b6c67bd558406c56.png",
+    "static/media/DS-DIGIT.TTF": "/tofa_react/static/media/DS-DIGIT.063ff1f714df69f9ff9d.TTF",
+    "static/media/DS-Digital.eot": "/tofa_react/static/media/DS-Digital.e93ae5fb77ff04834dd9.eot",
+    "static/media/DS-DIGIB.TTF": "/tofa_react/static/media/DS-DIGIB.81b4bd9230069b72f5e8.TTF",
+    "static/media/DS-Digital.ttf.eot": "/tofa_react/static/media/DS-Digital.ttf.766ceff92aeb925a2f4a.eot",
+    "static/media/DS-DIGII.TTF": "/tofa_react/static/media/DS-DIGII.67d08007d2306de93eb0.TTF",
+    "static/media/DS-DIGI.TTF": "/tofa_react/static/media/DS-DIGI.0ef0e2249326c34137c8.TTF",
+    "static/media/DS-Digital.ttf.svg": "/tofa_react/static/media/DS-Digital.ttf.b112ff186738d04cfe5a.svg",
+    "static/media/ps_error404.png": "/tofa_react/static/media/ps_error404.4f30c5f85c3a8565a045.png",
+    "static/media/iconfont.eot?t=1519785387995": "/tofa_react/static/media/iconfont.672d7118a462273cef20.eot",
+    "static/media/iconfont.ttf?t=1519785387995": "/tofa_react/static/media/iconfont.5a8e1519adf9771630d8.ttf",
+    "static/media/DS-Digital.ttf.woff": "/tofa_react/static/media/DS-Digital.ttf.3b42470bd4283d96811a.woff",
+    "static/media/DS-Digital.woff": "/tofa_react/static/media/DS-Digital.d337f0cf096fdafba518.woff",
+    "static/media/search.svg": "/tofa_react/static/media/search.52803f190556b712a8e0.svg",
+    "index.html": "/tofa_react/index.html",
+    "main.627e9920.css.map": "/tofa_react/static/css/main.627e9920.css.map",
+    "main.b25f19f4.js.map": "/tofa_react/static/js/main.b25f19f4.js.map",
+    "786.6286fd19.chunk.js.map": "/tofa_react/static/js/786.6286fd19.chunk.js.map",
+    "390.56f27b59.chunk.js.map": "/tofa_react/static/js/390.56f27b59.chunk.js.map",
+    "665.be721a7b.chunk.js.map": "/tofa_react/static/js/665.be721a7b.chunk.js.map",
+    "262.39bb4903.chunk.js.map": "/tofa_react/static/js/262.39bb4903.chunk.js.map",
+    "474.907331b0.chunk.js.map": "/tofa_react/static/js/474.907331b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.627e9920.css",
+    "static/js/main.b25f19f4.js"
+  ]
+}

@@ -1,0 +1,8282 @@
+[
+  {
+    "expect": 0.8,
+    "anomaly_score": 0.9,
+    "fault_name": "주간제어기 비상제동 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 32,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 2.5,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 7,
+    "fleet_id": 4610,
+    "mfds": 33,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 2.0,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 6,
+    "fleet_id": 4610,
+    "mfds": 34,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 35,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 2.0,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 4,
+    "fleet_id": 4610,
+    "mfds": 36,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.4,
+    "anomaly_score": 3.1,
+    "fault_name": "DeadMan 스위치-경고",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4610,
+    "mfds": 39,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 41,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 2.0,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 4,
+    "fleet_id": 4610,
+    "mfds": 71,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "VVVF#2-가선저전압검지(VLLVD)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 120,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "VVVF#3-가선저전압검지(VLLVD)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 156,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.3,
+    "fault_name": "VVVF#6-FC 저전압검지(FCLVD)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 191,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "VVVF#6-가선저전압검지(VLLVD)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 192,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.2,
+    "fault_name": "VVVF#7-FC 저전압검지(FCLVD)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 227,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "VVVF#7-가선저전압검지(VLLVD)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 228,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.3,
+    "fault_name": "ATC#1-과속경고",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4610,
+    "mfds": 549,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 2.5,
+    "fault_name": "ATC#1-EB 명령",
+    "level": "W",
+    "cnt": 7,
+    "fleet_id": 4610,
+    "mfds": 550,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.3,
+    "fault_name": "ATC#1-FSB 명령",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4610,
+    "mfds": 551,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.2,
+    "anomaly_score": 3.5,
+    "fault_name": "ATC#1-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 4,
+    "fleet_id": 4610,
+    "mfds": 554,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.7,
+    "anomaly_score": 0.9,
+    "fault_name": "주간제어기 비상제동 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 560,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.3,
+    "anomaly_score": 1.4,
+    "fault_name": "PSD 차상-지상간 통신장애",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 566,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 4.3,
+    "anomaly_score": 2.0,
+    "fault_name": "ATC#8-EB 명령",
+    "level": "W",
+    "cnt": 6,
+    "fleet_id": 4610,
+    "mfds": 581,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "ATC#8-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 585,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "DCU#5 1위(R1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1154,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.6,
+    "fault_name": "DCU#6 1위(R1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1262,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.8,
+    "fault_name": "DCU#7 2위(L1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1316,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.3,
+    "fault_name": "DCU#8 3위(R2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1496,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.1,
+    "anomaly_score": 28.1,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#1)",
+    "level": "C",
+    "cnt": 15,
+    "fleet_id": 4610,
+    "mfds": 1965,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 9.8,
+    "anomaly_score": 3.4,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#3)",
+    "level": "C",
+    "cnt": 15,
+    "fleet_id": 4610,
+    "mfds": 1985,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.2,
+    "anomaly_score": 12.3,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#4)",
+    "level": "C",
+    "cnt": 9,
+    "fleet_id": 4610,
+    "mfds": 1994,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 42.9,
+    "anomaly_score": 14.4,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#5)",
+    "level": "C",
+    "cnt": 15,
+    "fleet_id": 4610,
+    "mfds": 2005,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 16.5,
+    "anomaly_score": 2.3,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#7)",
+    "level": "C",
+    "cnt": 15,
+    "fleet_id": 4610,
+    "mfds": 2024,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 31.3,
+    "anomaly_score": 7.5,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#7)",
+    "level": "C",
+    "cnt": 15,
+    "fleet_id": 4610,
+    "mfds": 2025,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 17.1,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#8)",
+    "level": "C",
+    "cnt": 15,
+    "fleet_id": 4610,
+    "mfds": 2041,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.6,
+    "fault_name": "TRAIN RADIO#1-TRCP(차량조작반) 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 2066,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 2.1,
+    "fault_name": "PSD#1-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 3,
+    "fleet_id": 4610,
+    "mfds": 2098,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.4,
+    "anomaly_score": 2.1,
+    "fault_name": "PSD#1-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 3,
+    "fleet_id": 4610,
+    "mfds": 2103,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.7,
+    "fault_name": "PSD#8-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 3,
+    "fleet_id": 4610,
+    "mfds": 2111,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 2.4,
+    "fault_name": "PSD#8-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 4,
+    "fleet_id": 4610,
+    "mfds": 2116,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.8,
+    "anomaly_score": 0.9,
+    "fault_name": "주간제어기 비상제동 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 32,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 3.1,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 8,
+    "fleet_id": 4710,
+    "mfds": 33,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 3.1,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 8,
+    "fleet_id": 4710,
+    "mfds": 34,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 35,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.5,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 36,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 41,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.5,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 71,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.4,
+    "fault_name": "VVVF#2-휠 슬라이드 검지(WSD)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 104,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.3,
+    "fault_name": "VVVF#3-휠 슬라이드 검지(WSD)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 140,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "VVVF#6-휠 슬라이드 검지(WSD)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 176,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.0,
+    "fault_name": "VVVF#7-휠 슬라이드 검지(WSD)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 212,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.0,
+    "fault_name": "ATC#1-과속경고",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 549,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 3.2,
+    "fault_name": "ATC#1-EB 명령",
+    "level": "W",
+    "cnt": 8,
+    "fleet_id": 4710,
+    "mfds": 550,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.0,
+    "fault_name": "ATC#1-FSB 명령",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 551,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.7,
+    "anomaly_score": 2.0,
+    "fault_name": "주간제어기 비상제동 취급",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4710,
+    "mfds": 560,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.0,
+    "anomaly_score": 0.9,
+    "fault_name": "ATC#8-과속경고",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 580,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 4.3,
+    "anomaly_score": 3.2,
+    "fault_name": "ATC#8-EB 명령",
+    "level": "W",
+    "cnt": 8,
+    "fleet_id": 4710,
+    "mfds": 581,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.9,
+    "anomaly_score": 2.9,
+    "fault_name": "ATC#8-FSB 명령",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 4710,
+    "mfds": 582,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 1.4,
+    "fault_name": "ATC#8-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4710,
+    "mfds": 585,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 137.8,
+    "fault_name": "HVAC#6-냉난방장치2 압력스위치1(DPS) 고압",
+    "level": "D",
+    "cnt": 34,
+    "fleet_id": 4710,
+    "mfds": 1807,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 16.4,
+    "anomaly_score": 2.5,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#2)",
+    "level": "C",
+    "cnt": 19,
+    "fleet_id": 4710,
+    "mfds": 1975,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 2.8,
+    "anomaly_score": 1.3,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#4)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4710,
+    "mfds": 1995,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 5.7,
+    "fault_name": "출력증폭기#1(AMP) 고장(Car#4)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4710,
+    "mfds": 1997,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 5.5,
+    "fault_name": "비상인터폰#1(PEI) 고장(Car#4)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4710,
+    "mfds": 1999,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 18.1,
+    "anomaly_score": 999.0,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#5)",
+    "level": "C",
+    "cnt": 1105,
+    "fleet_id": 4710,
+    "mfds": 2004,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 37.4,
+    "anomaly_score": 7.9,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#6)",
+    "level": "C",
+    "cnt": 19,
+    "fleet_id": 4710,
+    "mfds": 2014,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 31.3,
+    "anomaly_score": 27.8,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#7)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 2025,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "출력증폭기#1(AMP) 고장(Car#7)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 2027,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "비상인터폰#1(PEI) 고장(Car#7)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 2029,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.9,
+    "fault_name": "PSD#1-차상 RF고장(2계)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 2107,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.2,
+    "fault_name": "PSD#8-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 2111,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.2,
+    "fault_name": "PSD#8-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 2116,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "비상제동 차단 스위치 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 28,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 2.0,
+    "fault_name": "비상제동 스위치 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 30,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.9,
+    "fault_name": "비상제동 스위치 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 31,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.8,
+    "anomaly_score": 0.9,
+    "fault_name": "주간제어기 비상제동 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 32,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 35,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 41,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 2.8,
+    "anomaly_score": 1.8,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#4)",
+    "level": "C",
+    "cnt": 4,
+    "fleet_id": 4810,
+    "mfds": 1995,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.3,
+    "anomaly_score": 3.7,
+    "fault_name": "전면카메라(FCAM) 고장(Car#1)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4810,
+    "mfds": 2040,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "비상제동 차단 스위치 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 28,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "비상제동 차단 스위치 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 29,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 2.0,
+    "fault_name": "비상제동 스위치 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 30,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.9,
+    "fault_name": "비상제동 스위치 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 31,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.8,
+    "anomaly_score": 3.1,
+    "fault_name": "주간제어기 비상제동 취급",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 4910,
+    "mfds": 32,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 3.4,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 4,
+    "fleet_id": 4910,
+    "mfds": 35,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 33.6,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 23,
+    "fleet_id": 4910,
+    "mfds": 36,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 41,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 33.6,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 23,
+    "fleet_id": 4910,
+    "mfds": 71,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 11.2,
+    "fault_name": "BECU#1-공기스프링누설(후미대차)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 266,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 9.8,
+    "fault_name": "BECU#1-공기스프링누설(전두대차)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 267,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 10.3,
+    "fault_name": "BECU#2-공기스프링누설(후미대차)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 304,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 10.5,
+    "fault_name": "BECU#2-공기스프링누설(전두대차)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 305,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 10.8,
+    "fault_name": "BECU#3-공기스프링누설(후미대차)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 342,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 11.6,
+    "fault_name": "BECU#4-공기스프링누설(후미대차)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 380,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 11.1,
+    "fault_name": "BECU#4-공기스프링누설(전두대차)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 381,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 10.3,
+    "fault_name": "BECU#5-공기스프링누설(후미대차)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 418,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 9.7,
+    "fault_name": "BECU#5-공기스프링누설(전두대차)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 419,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 10.2,
+    "fault_name": "BECU#6-공기스프링누설(후미대차)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 456,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 10.4,
+    "fault_name": "BECU#7-공기스프링누설(후미대차)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 494,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 10.8,
+    "fault_name": "BECU#7-공기스프링누설(전두대차)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 495,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 11.4,
+    "fault_name": "BECU#8-공기스프링누설(후미대차)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 532,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 11.7,
+    "fault_name": "BECU#8-공기스프링누설(전두대차)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 533,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.7,
+    "anomaly_score": 0.9,
+    "fault_name": "주간제어기 비상제동 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 560,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "DCU#1 2위(L1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 668,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.7,
+    "fault_name": "DCU#1 4위(L2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 686,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.8,
+    "fault_name": "DCU#1 6위(L3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 704,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.2,
+    "fault_name": "DCU#1 1위(R1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 722,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.4,
+    "fault_name": "DCU#1 3위(R2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 740,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.2,
+    "fault_name": "DCU#1 5위(R3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 758,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.3,
+    "fault_name": "DCU#2 2위(L1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 776,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.6,
+    "fault_name": "DCU#2 4위(L2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 794,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#2 4위(L2)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 808,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.7,
+    "fault_name": "DCU#2 6위(L3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 812,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.6,
+    "fault_name": "DCU#2 1위(R1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 830,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.8,
+    "fault_name": "DCU#2 3위(R2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 848,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.5,
+    "fault_name": "DCU#2 5위(R3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 866,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.3,
+    "fault_name": "DCU#3 2위(L1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 884,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "DCU#3 4위(L2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 902,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "DCU#3 6위(L3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 920,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.9,
+    "fault_name": "DCU#3 1위(R1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 938,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "DCU#3 3위(R2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 956,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.6,
+    "fault_name": "DCU#3 5위(R3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 974,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.6,
+    "fault_name": "DCU#4 2위(L1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 992,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.7,
+    "fault_name": "DCU#4 4위(L2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1010,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.1,
+    "fault_name": "DCU#4 4위(L2)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1024,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "DCU#4 6위(L3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1028,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#4 6위(L3)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1042,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.0,
+    "fault_name": "DCU#4 1위(R1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1046,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.1,
+    "fault_name": "DCU#4 3위(R2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1064,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.1,
+    "fault_name": "DCU#4 3위(R2)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1078,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "DCU#4 5위(R3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1082,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.1,
+    "fault_name": "DCU#4 5위(R3)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1096,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "DCU#5 2위(L1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1100,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 4.6,
+    "fault_name": "DCU#5 2위(L1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 1101,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.7,
+    "fault_name": "DCU#5 4위(L2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1118,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.1,
+    "fault_name": "DCU#5 6위(L3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1136,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.9,
+    "fault_name": "DCU#5 6위(L3)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1150,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "DCU#5 1위(R1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1154,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.2,
+    "fault_name": "DCU#5 3위(R2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1172,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.3,
+    "fault_name": "DCU#5 5위(R3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1190,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.9,
+    "fault_name": "DCU#5 5위(R3)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1204,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.3,
+    "fault_name": "DCU#6 2위(L1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1208,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "DCU#6 4위(L2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1226,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#6 4위(L2)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1240,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "DCU#6 6위(L3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1244,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.9,
+    "fault_name": "DCU#6 6위(L3)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1258,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.6,
+    "fault_name": "DCU#6 1위(R1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1262,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.1,
+    "fault_name": "DCU#6 3위(R2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1280,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#6 3위(R2)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1294,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.2,
+    "fault_name": "DCU#6 5위(R3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1298,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#6 5위(R3)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1312,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.8,
+    "fault_name": "DCU#7 2위(L1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1316,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#7 2위(L1)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1330,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "DCU#7 4위(L2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1334,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.9,
+    "fault_name": "DCU#7 4위(L2)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1348,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.2,
+    "fault_name": "DCU#7 6위(L3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1352,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#7 6위(L3)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1366,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.4,
+    "fault_name": "DCU#7 1위(R1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1370,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#7 1위(R1)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1384,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.2,
+    "fault_name": "DCU#7 3위(R2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1388,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.1,
+    "fault_name": "DCU#7 3위(R2)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1402,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.8,
+    "fault_name": "DCU#7 5위(R3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1406,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#7 5위(R3)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1420,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.4,
+    "fault_name": "DCU#8 2위(L1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1424,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.3,
+    "fault_name": "DCU#8 4위(L2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1442,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.1,
+    "fault_name": "DCU#8 4위(L2)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1456,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "DCU#8 6위(L3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1460,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#8 6위(L3)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1474,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "DCU#8 1위(R1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1478,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.3,
+    "fault_name": "DCU#8 3위(R2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1496,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#8 3위(R2)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1510,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "DCU#8 5위(R3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1514,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#8 5위(R3)-출입문 장애물로 인한 닫힘 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1528,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 31.3,
+    "anomaly_score": 20.7,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#7)",
+    "level": "C",
+    "cnt": 4,
+    "fleet_id": 4910,
+    "mfds": 2025,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.8,
+    "fault_name": "비상인터폰 동작(Car#1-1)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2048,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.2,
+    "fault_name": "비상인터폰 동작(Car#1-2)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2049,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.2,
+    "fault_name": "비상인터폰 동작(Car#2-1)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2050,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.0,
+    "fault_name": "비상인터폰 동작(Car#2-2)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2051,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.2,
+    "fault_name": "비상인터폰 동작(Car#3-1)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2052,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.1,
+    "fault_name": "비상인터폰 동작(Car#3-2)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2053,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.9,
+    "fault_name": "비상인터폰 동작(Car#4-1)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2054,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.0,
+    "fault_name": "비상인터폰 동작(Car#4-2)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2055,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.3,
+    "fault_name": "비상인터폰 동작(Car#5-1)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2056,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.2,
+    "fault_name": "비상인터폰 동작(Car#5-2)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2057,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.1,
+    "fault_name": "비상인터폰 동작(Car#6-1)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2058,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.4,
+    "fault_name": "비상인터폰 동작(Car#6-2)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2059,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.2,
+    "fault_name": "비상인터폰 동작(Car#7-1)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2060,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.3,
+    "fault_name": "비상인터폰 동작(Car#7-2)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2061,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.0,
+    "fault_name": "비상인터폰 동작(Car#8-1)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2062,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.3,
+    "fault_name": "비상인터폰 동작(Car#8-2)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2063,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.6,
+    "fault_name": "TRAIN RADIO#8-TRCP(차량조작반) 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2072,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 10.8,
+    "fault_name": "DCU#1 2위(L1)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 2365,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.2,
+    "fault_name": "DCU#1 4위(L2)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2368,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.1,
+    "fault_name": "DCU#1 6위(L3)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2371,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#1 1위(R1)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2374,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.2,
+    "fault_name": "DCU#1 3위(R2)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2377,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#1 5위(R3)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2380,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#2 2위(L1)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2383,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.4,
+    "fault_name": "DCU#2 4위(L2)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2386,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.2,
+    "fault_name": "DCU#2 6위(L3)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2389,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#2 1위(R1)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2392,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.1,
+    "fault_name": "DCU#2 3위(R2)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2395,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#2 5위(R3)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2398,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.1,
+    "fault_name": "DCU#3 2위(L1)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2401,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.4,
+    "fault_name": "DCU#3 4위(L2)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2404,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.4,
+    "fault_name": "DCU#3 6위(L3)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2407,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#3 1위(R1)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2410,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.4,
+    "fault_name": "DCU#3 3위(R2)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2413,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.2,
+    "fault_name": "DCU#3 5위(R3)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2416,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#4 2위(L1)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2419,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.4,
+    "fault_name": "DCU#4 4위(L2)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2422,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.4,
+    "fault_name": "DCU#4 6위(L3)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2425,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#4 1위(R1)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2428,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#4 3위(R2)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2431,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#4 5위(R3)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2434,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#5 2위(L1)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2437,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.2,
+    "fault_name": "DCU#5 4위(L2)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2440,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#5 6위(L3)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2443,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#5 1위(R1)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2446,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.2,
+    "fault_name": "DCU#5 3위(R2)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2449,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.2,
+    "fault_name": "DCU#5 5위(R3)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2452,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.1,
+    "fault_name": "DCU#6 2위(L1)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2455,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#6 4위(L2)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2458,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#6 6위(L3)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2461,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#6 1위(R1)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2464,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#6 5위(R3)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2470,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#7 2위(L1)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2473,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.5,
+    "fault_name": "DCU#7 4위(L2)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2476,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#7 6위(L3)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2479,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.2,
+    "fault_name": "DCU#7 1위(R1)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2482,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#7 3위(R2)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2485,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.4,
+    "fault_name": "DCU#7 5위(R3)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2488,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.2,
+    "fault_name": "DCU#8 2위(L1)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2491,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.5,
+    "fault_name": "DCU#8 4위(L2)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2494,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#8 6위(L3)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2497,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.2,
+    "fault_name": "DCU#8 1위(R1)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2500,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "DCU#8 3위(R2)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2503,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.4,
+    "fault_name": "DCU#8 5위(R3)-이중계 절체 동작",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2506,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.8,
+    "fault_name": "DCU#1 2위(L1)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2507,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.7,
+    "fault_name": "DCU#1 4위(L2)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2508,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.4,
+    "fault_name": "DCU#1 6위(L3)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2509,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.7,
+    "fault_name": "DCU#1 1위(R1)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2510,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.6,
+    "fault_name": "DCU#1 3위(R2)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2511,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.6,
+    "fault_name": "DCU#1 5위(R3)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2512,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.9,
+    "fault_name": "DCU#2 2위(L1)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2513,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.8,
+    "fault_name": "DCU#2 4위(L2)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2514,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.9,
+    "fault_name": "DCU#2 6위(L3)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2515,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.9,
+    "fault_name": "DCU#2 1위(R1)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2516,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.8,
+    "fault_name": "DCU#2 3위(R2)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2517,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.9,
+    "fault_name": "DCU#2 5위(R3)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2518,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.5,
+    "fault_name": "DCU#3 2위(L1)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2519,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.1,
+    "fault_name": "DCU#3 4위(L2)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2520,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#3 6위(L3)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2521,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.7,
+    "fault_name": "DCU#3 1위(R1)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2522,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#3 3위(R2)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2523,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#3 5위(R3)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2524,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#4 2위(L1)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2525,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.1,
+    "fault_name": "DCU#4 4위(L2)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2526,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#4 6위(L3)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2527,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.9,
+    "fault_name": "DCU#4 1위(R1)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2528,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#4 3위(R2)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2529,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.9,
+    "fault_name": "DCU#4 5위(R3)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2530,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.9,
+    "fault_name": "DCU#5 2위(L1)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2531,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#5 4위(L2)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2532,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#5 6위(L3)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2533,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#5 1위(R1)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2534,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.9,
+    "fault_name": "DCU#5 3위(R2)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2535,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.1,
+    "fault_name": "DCU#5 5위(R3)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2536,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.6,
+    "fault_name": "DCU#6 2위(L1)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2537,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#6 4위(L2)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2538,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.9,
+    "fault_name": "DCU#6 6위(L3)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2539,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.9,
+    "fault_name": "DCU#6 1위(R1)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2540,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.0,
+    "fault_name": "DCU#6 5위(R3)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2542,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.6,
+    "fault_name": "DCU#7 2위(L1)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2543,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.6,
+    "fault_name": "DCU#7 4위(L2)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2544,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.7,
+    "fault_name": "DCU#7 6위(L3)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2545,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.4,
+    "fault_name": "DCU#7 1위(R1)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2546,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.7,
+    "fault_name": "DCU#7 3위(R2)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2547,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.7,
+    "fault_name": "DCU#7 5위(R3)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2548,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.8,
+    "fault_name": "DCU#8 2위(L1)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2549,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.5,
+    "fault_name": "DCU#8 4위(L2)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2550,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.3,
+    "fault_name": "DCU#8 6위(L3)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2551,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.8,
+    "fault_name": "DCU#8 1위(R1)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2552,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.5,
+    "fault_name": "DCU#8 3위(R2)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2553,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.4,
+    "fault_name": "DCU#8 5위(R3)-모듈 상태 이상",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2554,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.8,
+    "anomaly_score": 3.1,
+    "fault_name": "주간제어기 비상제동 취급",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 5010,
+    "mfds": 32,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 35,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.2,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 5010,
+    "mfds": 36,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 41,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.2,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 5010,
+    "mfds": 71,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.6,
+    "fault_name": "BC 코크#2(차하) 차단(Car1)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 276,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.0,
+    "fault_name": "BC 코크#2(차하) 차단(Car2)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 314,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.7,
+    "anomaly_score": 0.9,
+    "fault_name": "주간제어기 비상제동 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 560,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#1 3위(R2)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 741,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.0,
+    "fault_name": "HVAC#7-CO2 센서1 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 1866,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.6,
+    "fault_name": "PSD#1-차상 RF고장(1계)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 2102,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 1.6,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 4,
+    "fleet_id": 5110,
+    "mfds": 33,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 1.6,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 4,
+    "fleet_id": 5110,
+    "mfds": 34,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 2.3,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 5110,
+    "mfds": 35,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.5,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 5110,
+    "mfds": 36,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 41,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.5,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 5110,
+    "mfds": 71,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.4,
+    "anomaly_score": 1.2,
+    "fault_name": "VVVF#3-추진차단-속도측정고장(POW BLOCK)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 139,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.4,
+    "anomaly_score": 1.2,
+    "fault_name": "VVVF#6-추진차단-속도측정고장(POW BLOCK)",
+    "level": "D",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 175,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.4,
+    "anomaly_score": 1.2,
+    "fault_name": "VVVF#7-추진차단-속도측정고장(POW BLOCK)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 211,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.0,
+    "fault_name": "ATC#1-과속경고",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 549,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 1.6,
+    "fault_name": "ATC#1-EB 명령",
+    "level": "W",
+    "cnt": 4,
+    "fleet_id": 5110,
+    "mfds": 550,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.2,
+    "anomaly_score": 0.9,
+    "fault_name": "ATC#1-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 554,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 4.3,
+    "anomaly_score": 1.6,
+    "fault_name": "ATC#8-EB 명령",
+    "level": "W",
+    "cnt": 4,
+    "fleet_id": 5110,
+    "mfds": 581,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "ATC#8-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 585,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.5,
+    "fault_name": "DCU#2 5위(R3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 866,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 6.6,
+    "fault_name": "DCU#4 5위(R3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 5110,
+    "mfds": 1082,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.2,
+    "fault_name": "DCU#5 3위(R2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 1172,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.8,
+    "fault_name": "DCU#7 5위(R3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 1406,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "DCU#8 6위(L3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 1460,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.8,
+    "fault_name": "HVAC#2-CO2 센서2 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 1600,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 2.0,
+    "fault_name": "HVAC#3-CO2 센서2 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 1653,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.3,
+    "fault_name": "HVAC#6-CO2 센서2 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 1812,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.0,
+    "fault_name": "HVAC#7-CO2 센서1 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 1866,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 42.9,
+    "anomaly_score": 20.4,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#5)",
+    "level": "C",
+    "cnt": 10,
+    "fleet_id": 5110,
+    "mfds": 2005,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 37.4,
+    "anomaly_score": 16.3,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#6)",
+    "level": "C",
+    "cnt": 10,
+    "fleet_id": 5110,
+    "mfds": 2014,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 31.3,
+    "anomaly_score": 11.9,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#7)",
+    "level": "C",
+    "cnt": 10,
+    "fleet_id": 5110,
+    "mfds": 2025,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 8.7,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#8)",
+    "level": "C",
+    "cnt": 10,
+    "fleet_id": 5110,
+    "mfds": 2041,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.3,
+    "fault_name": "PSD#1-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 2,
+    "fleet_id": 5110,
+    "mfds": 2098,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 1.4,
+    "anomaly_score": 1.3,
+    "fault_name": "PSD#1-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 2,
+    "fleet_id": 5110,
+    "mfds": 2103,
+    "detect_time": "2024-06-17"
+  },
+  {
+    "expect": 0.8,
+    "anomaly_score": 0.9,
+    "fault_name": "주간제어기 비상제동 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 32,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 4.7,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 10,
+    "fleet_id": 4610,
+    "mfds": 33,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 4.7,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 10,
+    "fleet_id": 4610,
+    "mfds": 34,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 2.3,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 4610,
+    "mfds": 35,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.5,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 4610,
+    "mfds": 36,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 41,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.5,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 4610,
+    "mfds": 71,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 14.6,
+    "fault_name": "주차제동 바이패스 스위치 취급",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 4610,
+    "mfds": 72,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "VVVF#2-가선저전압검지(VLLVD)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 120,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.4,
+    "anomaly_score": 1.2,
+    "fault_name": "VVVF#3-추진차단-속도측정고장(POW BLOCK)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 139,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "VVVF#3-가선저전압검지(VLLVD)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 156,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.4,
+    "anomaly_score": 1.2,
+    "fault_name": "VVVF#6-추진차단-속도측정고장(POW BLOCK)",
+    "level": "D",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 175,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.3,
+    "fault_name": "VVVF#6-FC 저전압검지(FCLVD)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 191,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "VVVF#6-가선저전압검지(VLLVD)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 192,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.4,
+    "anomaly_score": 1.2,
+    "fault_name": "VVVF#7-추진차단-속도측정고장(POW BLOCK)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 211,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.2,
+    "fault_name": "VVVF#7-FC 저전압검지(FCLVD)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 227,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "VVVF#7-가선저전압검지(VLLVD)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 228,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 4.7,
+    "fault_name": "ATC#1-EB 명령",
+    "level": "W",
+    "cnt": 10,
+    "fleet_id": 4610,
+    "mfds": 550,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.7,
+    "fault_name": "열차번호 불일치",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 558,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.7,
+    "anomaly_score": 0.9,
+    "fault_name": "주간제어기 비상제동 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 560,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 3.9,
+    "fault_name": "ATC#8-EB 명령",
+    "level": "W",
+    "cnt": 9,
+    "fleet_id": 4610,
+    "mfds": 581,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "ATC#8-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 585,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 4.2,
+    "fault_name": "DCU#1 4위(L2)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 2,
+    "fleet_id": 4610,
+    "mfds": 687,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 2.0,
+    "fault_name": "DCU#1 1위(R1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 723,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 4.8,
+    "fault_name": "DCU#1 3위(R2)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 2,
+    "fleet_id": 4610,
+    "mfds": 741,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 2.0,
+    "fault_name": "DCU#1 5위(R3)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 759,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#2 2위(L1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 777,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.7,
+    "fault_name": "DCU#2 4위(L2)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 795,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 2.0,
+    "fault_name": "DCU#2 5위(R3)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 867,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 4.1,
+    "fault_name": "DCU#3 4위(L2)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 2,
+    "fleet_id": 4610,
+    "mfds": 903,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.7,
+    "fault_name": "DCU#3 1위(R1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 939,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.9,
+    "fault_name": "DCU#3 5위(R3)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 975,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.0,
+    "fault_name": "DCU#4 2위(L1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 993,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.8,
+    "fault_name": "DCU#4 4위(L2)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1011,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.6,
+    "fault_name": "DCU#4 4위(L2)-출입문 외부비상핸들 취급(EAD)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1012,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#4 6위(L3)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1029,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.8,
+    "fault_name": "DCU#4 1위(R1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1047,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.0,
+    "fault_name": "DCU#4 3위(R2)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1065,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 2.0,
+    "fault_name": "DCU#4 5위(R3)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1083,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 2.0,
+    "fault_name": "DCU#5 2위(L1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1101,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.9,
+    "fault_name": "DCU#5 4위(L2)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1119,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.3,
+    "fault_name": "DCU#5 6위(L3)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1137,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.8,
+    "fault_name": "DCU#5 1위(R1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1155,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#5 3위(R2)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1173,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#5 5위(R3)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1191,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "DCU#6 4위(L2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1226,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.8,
+    "fault_name": "DCU#6 4위(L2)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1227,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.9,
+    "fault_name": "DCU#6 1위(R1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1263,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.7,
+    "fault_name": "DCU#6 5위(R3)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1299,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 4.1,
+    "fault_name": "DCU#7 4위(L2)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 2,
+    "fleet_id": 4610,
+    "mfds": 1335,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.8,
+    "fault_name": "DCU#8 2위(L1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1425,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#8 6위(L3)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1461,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 4.2,
+    "fault_name": "DCU#8 3위(R2)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 2,
+    "fleet_id": 4610,
+    "mfds": 1497,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.2,
+    "fault_name": "DCU#8 5위(R3)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1515,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.1,
+    "anomaly_score": 57.6,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#1)",
+    "level": "C",
+    "cnt": 25,
+    "fleet_id": 4610,
+    "mfds": 1965,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 9.8,
+    "anomaly_score": 10.7,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#3)",
+    "level": "C",
+    "cnt": 25,
+    "fleet_id": 4610,
+    "mfds": 1985,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.2,
+    "anomaly_score": 21.3,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#4)",
+    "level": "C",
+    "cnt": 13,
+    "fleet_id": 4610,
+    "mfds": 1994,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 42.8,
+    "anomaly_score": 6.9,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#5)",
+    "level": "C",
+    "cnt": 25,
+    "fleet_id": 4610,
+    "mfds": 2005,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 16.5,
+    "anomaly_score": 4.4,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#7)",
+    "level": "C",
+    "cnt": 25,
+    "fleet_id": 4610,
+    "mfds": 2024,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 31.2,
+    "anomaly_score": 3.2,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#7)",
+    "level": "C",
+    "cnt": 25,
+    "fleet_id": 4610,
+    "mfds": 2025,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 38.4,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#8)",
+    "level": "C",
+    "cnt": 25,
+    "fleet_id": 4610,
+    "mfds": 2041,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.3,
+    "fault_name": "PSD#1-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 2,
+    "fleet_id": 4610,
+    "mfds": 2098,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.4,
+    "anomaly_score": 1.3,
+    "fault_name": "PSD#1-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 2,
+    "fleet_id": 4610,
+    "mfds": 2103,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.2,
+    "fault_name": "PSD#8-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 2111,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.2,
+    "fault_name": "PSD#8-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 2,
+    "fleet_id": 4610,
+    "mfds": 2116,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "CU1 통신고장",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 1,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 1.7,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 5,
+    "fleet_id": 4710,
+    "mfds": 33,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 2.0,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 6,
+    "fleet_id": 4710,
+    "mfds": 34,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.5,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 4710,
+    "mfds": 36,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 41,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.5,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 4710,
+    "mfds": 71,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.4,
+    "fault_name": "VVVF#2-FC 저전압검지(FCLVD)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 119,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "VVVF#2-가선저전압검지(VLLVD)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 120,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "VVVF#3-가선저전압검지(VLLVD)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 156,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "VVVF#6-가선저전압검지(VLLVD)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 192,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "VVVF#7-가선저전압검지(VLLVD)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 228,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 3.0,
+    "fault_name": "ATC#1-과속경고",
+    "level": "W",
+    "cnt": 4,
+    "fleet_id": 4710,
+    "mfds": 549,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 1.7,
+    "fault_name": "ATC#1-EB 명령",
+    "level": "W",
+    "cnt": 5,
+    "fleet_id": 4710,
+    "mfds": 550,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 3.1,
+    "fault_name": "ATC#1-FSB 명령",
+    "level": "W",
+    "cnt": 4,
+    "fleet_id": 4710,
+    "mfds": 551,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.2,
+    "anomaly_score": 6.5,
+    "fault_name": "ATC#1-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 6,
+    "fleet_id": 4710,
+    "mfds": 554,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.7,
+    "anomaly_score": 0.9,
+    "fault_name": "주간제어기 비상제동 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 560,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 2.0,
+    "fault_name": "ATC#8-EB 명령",
+    "level": "W",
+    "cnt": 6,
+    "fleet_id": 4710,
+    "mfds": 581,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 3.3,
+    "fault_name": "ATC#8-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 4,
+    "fleet_id": 4710,
+    "mfds": 585,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.4,
+    "fault_name": "DCU#1 3위(R2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 740,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 6.6,
+    "fault_name": "DCU#3 3위(R2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4710,
+    "mfds": 956,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 8.5,
+    "fault_name": "DCU#3 3위(R2)-출입문 장애물로 인한 열림 실패",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 971,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.6,
+    "fault_name": "DCU#4 2위(L1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 992,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.0,
+    "fault_name": "DCU#4 1위(R1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 1046,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.0,
+    "fault_name": "DCU#4 3위(R2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 1064,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "DCU#5 1위(R1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 1154,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.2,
+    "fault_name": "DCU#7 3위(R2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 1388,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 187.4,
+    "fault_name": "HVAC#6-냉난방장치2 압력스위치1(DPS) 고압",
+    "level": "D",
+    "cnt": 44,
+    "fleet_id": 4710,
+    "mfds": 1807,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.3,
+    "anomaly_score": 3.3,
+    "fault_name": "CCTV 모니터(CTM) 고장(Car#1)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4710,
+    "mfds": 1962,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 16.4,
+    "anomaly_score": 2.6,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#2)",
+    "level": "C",
+    "cnt": 19,
+    "fleet_id": 4710,
+    "mfds": 1975,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 18.3,
+    "anomaly_score": 999.0,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#5)",
+    "level": "C",
+    "cnt": 1136,
+    "fleet_id": 4710,
+    "mfds": 2004,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 37.4,
+    "anomaly_score": 7.9,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#6)",
+    "level": "C",
+    "cnt": 19,
+    "fleet_id": 4710,
+    "mfds": 2014,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 4.4,
+    "fault_name": "PSD#1-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 5,
+    "fleet_id": 4710,
+    "mfds": 2098,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.4,
+    "anomaly_score": 4.5,
+    "fault_name": "PSD#1-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 5,
+    "fleet_id": 4710,
+    "mfds": 2103,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.2,
+    "fault_name": "PSD#8-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 2,
+    "fleet_id": 4710,
+    "mfds": 2111,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.2,
+    "fault_name": "PSD#8-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 2,
+    "fleet_id": 4710,
+    "mfds": 2116,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.8,
+    "fault_name": "모든 출입문 바이패스 스위치 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 17,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 4.3,
+    "fault_name": "모든 출입문 바이패스 스위치 취급",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4810,
+    "mfds": 18,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "비상제동 차단 스위치 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 28,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "비상제동 차단 스위치 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 29,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 2.0,
+    "fault_name": "비상제동 스위치 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 30,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 4.5,
+    "fault_name": "비상제동 스위치 취급",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4810,
+    "mfds": 31,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 3.8,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 9,
+    "fleet_id": 4810,
+    "mfds": 33,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 2.0,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 6,
+    "fleet_id": 4810,
+    "mfds": 34,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 35,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.2,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4810,
+    "mfds": 36,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 41,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.2,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4810,
+    "mfds": 71,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.0,
+    "fault_name": "경고, 스크린도어 열림상태",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 73,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 4.2,
+    "fault_name": "PSD 차상-지상간 통신장애",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4810,
+    "mfds": 74,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 2.0,
+    "fault_name": "ATC#1-과속경고",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 4810,
+    "mfds": 549,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 3.9,
+    "fault_name": "ATC#1-EB 명령",
+    "level": "W",
+    "cnt": 9,
+    "fleet_id": 4810,
+    "mfds": 550,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 2.0,
+    "fault_name": "ATC#1-FSB 명령",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 4810,
+    "mfds": 551,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.2,
+    "anomaly_score": 0.9,
+    "fault_name": "ATC#1-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 554,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.0,
+    "anomaly_score": 2.9,
+    "fault_name": "ATC#8-과속경고",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 4810,
+    "mfds": 580,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 2.5,
+    "fault_name": "ATC#8-EB 명령",
+    "level": "W",
+    "cnt": 7,
+    "fleet_id": 4810,
+    "mfds": 581,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.9,
+    "anomaly_score": 2.9,
+    "fault_name": "ATC#8-FSB 명령",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 4810,
+    "mfds": 582,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 2.2,
+    "fault_name": "ATC#8-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 3,
+    "fleet_id": 4810,
+    "mfds": 585,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.2,
+    "fault_name": "DCU#6 5위(R3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1298,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.4,
+    "fault_name": "DCU#8 2위(L1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1424,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "DCU#8 6위(L3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1460,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "HVAC#5-CO2 센서1 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1760,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 2.8,
+    "anomaly_score": 28.8,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#4)",
+    "level": "C",
+    "cnt": 22,
+    "fleet_id": 4810,
+    "mfds": 1995,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.7,
+    "fault_name": "CCTV 모니터(CTM) 고장(Car#8)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2038,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.3,
+    "anomaly_score": 3.7,
+    "fault_name": "전면카메라(FCAM) 고장(Car#1)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4810,
+    "mfds": 2040,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.8,
+    "fault_name": "비상인터폰 동작(Car#1-1)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2048,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.7,
+    "fault_name": "TRAIN RADIO#1-TCI(열차통신장치) 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2067,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.0,
+    "fault_name": "PSD#1-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2098,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.4,
+    "anomaly_score": 1.0,
+    "fault_name": "PSD#1-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2103,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.2,
+    "fault_name": "PSD#8-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 2,
+    "fleet_id": 4810,
+    "mfds": 2111,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.7,
+    "fault_name": "PSD#8-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 3,
+    "fleet_id": 4810,
+    "mfds": 2116,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.3,
+    "anomaly_score": 1.4,
+    "fault_name": "BECU#5-3축스키드신호",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2344,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#1 2위(L1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2363,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#1 4위(L2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2366,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#1 6위(L3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2369,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#2 2위(L1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2381,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#2 4위(L2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2384,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#2 6위(L3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2387,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#3 2위(L1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2399,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#3 4위(L2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2402,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#3 6위(L3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2405,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#4 2위(L1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2417,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#4 4위(L2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2420,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#4 6위(L3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2423,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#5 2위(L1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2435,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#5 4위(L2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2438,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#5 6위(L3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2441,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#6 2위(L1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2453,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#6 4위(L2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2456,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#6 6위(L3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2459,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#7 2위(L1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2471,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#7 4위(L2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2474,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#7 6위(L3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2477,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#8 1위(R1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2498,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#8 3위(R2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2501,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#8 5위(R3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2504,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.8,
+    "fault_name": "모든 출입문 바이패스 스위치 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 17,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.8,
+    "fault_name": "모든 출입문 바이패스 스위치 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 18,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "비상제동 차단 스위치 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 28,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 4.8,
+    "fault_name": "비상제동 차단 스위치 취급",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 29,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 2.0,
+    "fault_name": "비상제동 스위치 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 30,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 4.5,
+    "fault_name": "비상제동 스위치 취급",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 31,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 3.1,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 8,
+    "fleet_id": 4910,
+    "mfds": 33,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 2.5,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 7,
+    "fleet_id": 4910,
+    "mfds": 34,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 1.4,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 35,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 5.9,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 8,
+    "fleet_id": 4910,
+    "mfds": 36,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 17.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 12,
+    "fleet_id": 4910,
+    "mfds": 41,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 4.7,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 7,
+    "fleet_id": 4910,
+    "mfds": 71,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 8.7,
+    "fault_name": "VVVF#2-회생제동차단(BRK BLOCK)",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 102,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.8,
+    "fault_name": "VVVF#2-추진차단-속도측정고장(POW BLOCK)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 103,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.4,
+    "fault_name": "VVVF#2-휠 슬라이드 검지(WSD)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 104,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 8.6,
+    "fault_name": "VVVF#3-회생제동차단(BRK BLOCK)",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 138,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.4,
+    "anomaly_score": 4.8,
+    "fault_name": "VVVF#3-추진차단-속도측정고장(POW BLOCK)",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 4910,
+    "mfds": 139,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 8.6,
+    "fault_name": "VVVF#6-회생제동차단(BRK BLOCK)",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 174,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.4,
+    "anomaly_score": 5.0,
+    "fault_name": "VVVF#6-추진차단-속도측정고장(POW BLOCK)",
+    "level": "D",
+    "cnt": 3,
+    "fleet_id": 4910,
+    "mfds": 175,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "VVVF#6-휠 슬라이드 검지(WSD)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 176,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 8.7,
+    "fault_name": "VVVF#7-회생제동차단(BRK BLOCK)",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 210,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.4,
+    "anomaly_score": 5.1,
+    "fault_name": "VVVF#7-추진차단-속도측정고장(POW BLOCK)",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 4910,
+    "mfds": 211,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.0,
+    "fault_name": "VVVF#7-휠 슬라이드 검지(WSD)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 212,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 3.0,
+    "fault_name": "ATC#1-과속경고",
+    "level": "W",
+    "cnt": 4,
+    "fleet_id": 4910,
+    "mfds": 549,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 3.2,
+    "fault_name": "ATC#1-EB 명령",
+    "level": "W",
+    "cnt": 8,
+    "fleet_id": 4910,
+    "mfds": 550,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 3.1,
+    "fault_name": "ATC#1-FSB 명령",
+    "level": "W",
+    "cnt": 4,
+    "fleet_id": 4910,
+    "mfds": 551,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.7,
+    "anomaly_score": 2.0,
+    "fault_name": "주간제어기 비상제동 취급",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 560,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.0,
+    "anomaly_score": 4.3,
+    "fault_name": "ATC#8-과속경고",
+    "level": "W",
+    "cnt": 4,
+    "fleet_id": 4910,
+    "mfds": 580,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 2.5,
+    "fault_name": "ATC#8-EB 명령",
+    "level": "W",
+    "cnt": 7,
+    "fleet_id": 4910,
+    "mfds": 581,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.9,
+    "anomaly_score": 4.4,
+    "fault_name": "ATC#8-FSB 명령",
+    "level": "W",
+    "cnt": 4,
+    "fleet_id": 4910,
+    "mfds": 582,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 3.3,
+    "fault_name": "ATC#8-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 4,
+    "fleet_id": 4910,
+    "mfds": 585,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 6.7,
+    "fault_name": "SIV#1-AC 출력과전압(ACOV)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 614,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.1,
+    "fault_name": "SIV#8 통신고장",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 638,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 6.9,
+    "fault_name": "SIV#8-AC 출력과전압(ACOV)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 642,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.5,
+    "fault_name": "IVS 서비스위치 아님(Car8)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 665,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#1 3위(R2)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 741,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 2.0,
+    "fault_name": "DCU#1 5위(R3)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 759,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#2 2위(L1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 777,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.6,
+    "fault_name": "DCU#2 1위(R1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 830,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.9,
+    "fault_name": "DCU#2 1위(R1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 831,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 2.0,
+    "fault_name": "DCU#3 2위(L1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 885,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.9,
+    "fault_name": "DCU#3 6위(L3)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 921,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.7,
+    "fault_name": "DCU#3 1위(R1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 939,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.9,
+    "fault_name": "DCU#3 5위(R3)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 975,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.6,
+    "fault_name": "DCU#4 2위(L1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 992,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.0,
+    "fault_name": "DCU#4 2위(L1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 993,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.8,
+    "fault_name": "DCU#4 1위(R1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1047,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 2.0,
+    "fault_name": "DCU#5 2위(L1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1101,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 4.2,
+    "fault_name": "DCU#5 1위(R1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 1155,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.9,
+    "fault_name": "DCU#6 2위(L1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1209,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.9,
+    "fault_name": "DCU#6 1위(R1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1263,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 4.6,
+    "fault_name": "DCU#7 2위(L1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 1317,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 5.2,
+    "fault_name": "DCU#7 6위(L3)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 1353,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 7.1,
+    "fault_name": "DCU#7 1위(R1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 3,
+    "fleet_id": 4910,
+    "mfds": 1371,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.3,
+    "fault_name": "DCU#7 5위(R3)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1407,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.8,
+    "fault_name": "DCU#8 2위(L1)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1425,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 4.8,
+    "fault_name": "DCU#8 6위(L3)-출입문 내부비상핸들 취급(EED)",
+    "level": "B",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 1461,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.8,
+    "fault_name": "HVAC#5-380V 전원고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1791,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.8,
+    "fault_name": "HVAC#6-380V 전원고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1844,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.9,
+    "fault_name": "HVAC#7-CO2 센서2 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1865,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.8,
+    "fault_name": "HVAC#7-380V 전원고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1897,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.9,
+    "fault_name": "HVAC#8-380V 전원고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1950,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 4.7,
+    "fault_name": "통합방송표시기#1 통신고장",
+    "level": "B",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 1954,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.6,
+    "fault_name": "통합제어기(AVC) 고장(Car#1)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1961,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 31.2,
+    "anomaly_score": 2.6,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#7)",
+    "level": "C",
+    "cnt": 31,
+    "fleet_id": 4910,
+    "mfds": 2025,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 3.8,
+    "fault_name": "TRAIN RADIO#8-TRCP(차량조작반) 고장",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 2072,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 5.7,
+    "fault_name": "TRAIN RADIO#8-TCI(열차통신장치) 고장",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 2073,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.7,
+    "fault_name": "PSD#8-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 3,
+    "fleet_id": 4910,
+    "mfds": 2111,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.7,
+    "fault_name": "PSD#8-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 3,
+    "fleet_id": 4910,
+    "mfds": 2116,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.4,
+    "anomaly_score": 3.1,
+    "fault_name": "기타장치용 DC 회로차단기 차단(Car1)",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 2273,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 5.3,
+    "fault_name": "기타장치용 AC 회로차단기 차단(Car8)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2325,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.6,
+    "fault_name": "BC 코크#2(차하) 차단(Car1)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 276,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.9,
+    "fault_name": "BC 코크#2(차하) 차단(Car2)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 314,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.9,
+    "fault_name": "BC 코크#2(차하) 차단(Car3)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 352,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.1,
+    "fault_name": "BC 코크#2(차하) 차단(Car4)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 390,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.0,
+    "fault_name": "BC 코크#2(차하) 차단(Car5)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 428,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.8,
+    "fault_name": "BC 코크#2(차하) 차단(Car6)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 466,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.7,
+    "fault_name": "BC 코크#2(차하) 차단(Car7)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 504,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.7,
+    "fault_name": "BC 코크#2(차하) 차단(Car8)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 542,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.0,
+    "fault_name": "HVAC#7-CO2 센서1 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 1866,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.6,
+    "fault_name": "PSD#1-차상 RF고장(1계)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 2102,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 6.5,
+    "anomaly_score": 2.6,
+    "fault_name": "BMS#1-Cell 과전압(COV, 4,25V이상)",
+    "level": "D",
+    "cnt": 3,
+    "fleet_id": 5010,
+    "mfds": 2247,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 1.7,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 5,
+    "fleet_id": 5110,
+    "mfds": 33,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 1.7,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 5,
+    "fleet_id": 5110,
+    "mfds": 34,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 35,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.2,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 5110,
+    "mfds": 36,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 41,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.2,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 5110,
+    "mfds": 71,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.0,
+    "fault_name": "ATC#1-과속경고",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 549,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 1.7,
+    "fault_name": "ATC#1-EB 명령",
+    "level": "W",
+    "cnt": 5,
+    "fleet_id": 5110,
+    "mfds": 550,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.0,
+    "fault_name": "ATC#1-FSB 명령",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 551,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.2,
+    "anomaly_score": 0.9,
+    "fault_name": "ATC#1-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 554,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.0,
+    "fault_name": "경고, 스크린도어 열림상태",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 565,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 1.7,
+    "fault_name": "ATC#8-EB 명령",
+    "level": "W",
+    "cnt": 5,
+    "fleet_id": 5110,
+    "mfds": 581,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "DCU#4 6위(L3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 1028,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.3,
+    "fault_name": "DCU#6 2위(L1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 1208,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.2,
+    "fault_name": "HVAC#1-CO2 센서1 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 1548,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.9,
+    "fault_name": "HVAC#3-CO2 센서1 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 1654,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.0,
+    "fault_name": "HVAC#7-CO2 센서1 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 1866,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.7,
+    "fault_name": "HVAC#8-CO2 센서2 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 1918,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 42.8,
+    "anomaly_score": 12.5,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#5)",
+    "level": "C",
+    "cnt": 17,
+    "fleet_id": 5110,
+    "mfds": 2005,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 37.4,
+    "anomaly_score": 9.3,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#6)",
+    "level": "C",
+    "cnt": 17,
+    "fleet_id": 5110,
+    "mfds": 2014,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 31.2,
+    "anomaly_score": 6.2,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#7)",
+    "level": "C",
+    "cnt": 17,
+    "fleet_id": 5110,
+    "mfds": 2025,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 21.0,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#8)",
+    "level": "C",
+    "cnt": 17,
+    "fleet_id": 5110,
+    "mfds": 2041,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.2,
+    "fault_name": "PSD#8-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2111,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.2,
+    "fault_name": "PSD#8-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2116,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#1 2위(L1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2363,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#1 4위(L2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2366,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#1 6위(L3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2369,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#2 2위(L1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2381,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#2 4위(L2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2384,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#2 6위(L3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2387,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#3 2위(L1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2399,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#3 4위(L2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2402,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#3 6위(L3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2405,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#4 2위(L1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2417,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#4 4위(L2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2420,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#4 6위(L3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2423,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#5 2위(L1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2435,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#5 4위(L2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2438,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#5 6위(L3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2441,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#6 2위(L1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2453,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#6 4위(L2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2456,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#6 6위(L3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2459,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#7 2위(L1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2471,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#7 4위(L2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2474,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#7 6위(L3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2477,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#8 1위(R1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2498,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#8 3위(R2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2501,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#8 5위(R3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2504,
+    "detect_time": "2024-06-18"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.8,
+    "fault_name": "열차번호 불일치",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 16,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.8,
+    "anomaly_score": 0.9,
+    "fault_name": "주간제어기 비상제동 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 32,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 2.5,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 7,
+    "fleet_id": 4610,
+    "mfds": 33,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 2.0,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 6,
+    "fleet_id": 4610,
+    "mfds": 34,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 35,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.2,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4610,
+    "mfds": 36,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 41,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.2,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4610,
+    "mfds": 71,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.0,
+    "fault_name": "ATC#1-과속경고",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 549,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 2.5,
+    "fault_name": "ATC#1-EB 명령",
+    "level": "W",
+    "cnt": 7,
+    "fleet_id": 4610,
+    "mfds": 550,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.2,
+    "anomaly_score": 0.9,
+    "fault_name": "ATC#1-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 554,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.7,
+    "fault_name": "열차번호 불일치",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 558,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.3,
+    "anomaly_score": 1.4,
+    "fault_name": "PSD 차상-지상간 통신장애",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 566,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.0,
+    "anomaly_score": 0.9,
+    "fault_name": "ATC#8-과속경고",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 580,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.3,
+    "anomaly_score": 2.0,
+    "fault_name": "ATC#8-EB 명령",
+    "level": "W",
+    "cnt": 6,
+    "fleet_id": 4610,
+    "mfds": 581,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.9,
+    "anomaly_score": 0.9,
+    "fault_name": "ATC#8-FSB 명령",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 582,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "ATC#8-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 585,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "DCU#4 6위(L3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1028,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.6,
+    "fault_name": "통합방송표시기#8 통신고장",
+    "level": "B",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 1955,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.1,
+    "anomaly_score": 36.4,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#1)",
+    "level": "C",
+    "cnt": 18,
+    "fleet_id": 4610,
+    "mfds": 1965,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 9.8,
+    "anomaly_score": 5.1,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#3)",
+    "level": "C",
+    "cnt": 18,
+    "fleet_id": 4610,
+    "mfds": 1985,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.2,
+    "anomaly_score": 28.8,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#4)",
+    "level": "C",
+    "cnt": 16,
+    "fleet_id": 4610,
+    "mfds": 1994,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 42.8,
+    "anomaly_score": 11.6,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#5)",
+    "level": "C",
+    "cnt": 18,
+    "fleet_id": 4610,
+    "mfds": 2005,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 16.5,
+    "anomaly_score": 2.4,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#7)",
+    "level": "C",
+    "cnt": 18,
+    "fleet_id": 4610,
+    "mfds": 2024,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 31.2,
+    "anomaly_score": 5.7,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#7)",
+    "level": "C",
+    "cnt": 18,
+    "fleet_id": 4610,
+    "mfds": 2025,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 22.9,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#8)",
+    "level": "C",
+    "cnt": 18,
+    "fleet_id": 4610,
+    "mfds": 2041,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.8,
+    "fault_name": "TRAIN RADIO#8-DID(표출연동장치) 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4610,
+    "mfds": 2074,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 96.7,
+    "fault_name": "TRAIN RADIO#8-열차번호 변경 설정",
+    "level": "W",
+    "cnt": 16,
+    "fleet_id": 4610,
+    "mfds": 2076,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.3,
+    "fault_name": "PSD#1-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 2,
+    "fleet_id": 4610,
+    "mfds": 2098,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.4,
+    "anomaly_score": 1.3,
+    "fault_name": "PSD#1-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 2,
+    "fleet_id": 4610,
+    "mfds": 2103,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.2,
+    "fault_name": "PSD#8-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 2,
+    "fleet_id": 4610,
+    "mfds": 2111,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.2,
+    "fault_name": "PSD#8-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 2,
+    "fleet_id": 4610,
+    "mfds": 2116,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.8,
+    "anomaly_score": 1.8,
+    "fault_name": "주간제어기 비상제동 취급",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4710,
+    "mfds": 32,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 1.6,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 4,
+    "fleet_id": 4710,
+    "mfds": 33,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 1.7,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 4710,
+    "mfds": 34,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.5,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 36,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.4,
+    "anomaly_score": 1.3,
+    "fault_name": "DeadMan 스위치-경고",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 39,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.5,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 71,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.3,
+    "fault_name": "ATC#1-과속경고",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4710,
+    "mfds": 549,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 1.6,
+    "fault_name": "ATC#1-EB 명령",
+    "level": "W",
+    "cnt": 4,
+    "fleet_id": 4710,
+    "mfds": 550,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.0,
+    "fault_name": "ATC#1-FSB 명령",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 551,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.2,
+    "anomaly_score": 0.9,
+    "fault_name": "ATC#1-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 554,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.7,
+    "anomaly_score": 3.5,
+    "fault_name": "주간제어기 비상제동 취급",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 4710,
+    "mfds": 560,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.3,
+    "anomaly_score": 1.7,
+    "fault_name": "ATC#8-EB 명령",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 4710,
+    "mfds": 581,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "ATC#8-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 585,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "DCU#8 1위(R1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 1478,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "DCU#8 5위(R3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 1514,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.3,
+    "anomaly_score": 102.2,
+    "fault_name": "HVAC#6-냉난방장치2 압력스위치1(DPS) 고압",
+    "level": "D",
+    "cnt": 27,
+    "fleet_id": 4710,
+    "mfds": 1807,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 16.4,
+    "anomaly_score": 2.4,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#2)",
+    "level": "C",
+    "cnt": 18,
+    "fleet_id": 4710,
+    "mfds": 1975,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 18.5,
+    "anomaly_score": 999.0,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#5)",
+    "level": "C",
+    "cnt": 1044,
+    "fleet_id": 4710,
+    "mfds": 2004,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 37.3,
+    "anomaly_score": 8.6,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#6)",
+    "level": "C",
+    "cnt": 18,
+    "fleet_id": 4710,
+    "mfds": 2014,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.6,
+    "fault_name": "PSD#1-차상 RF고장(1계)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 2102,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.2,
+    "fault_name": "PSD#8-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 2111,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "PSD#8-차상 RF고장(1계)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 2115,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.2,
+    "fault_name": "PSD#8-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 1,
+    "fleet_id": 4710,
+    "mfds": 2116,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 6.4,
+    "fault_name": "PSD#8-차상 RF고장(2계)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4710,
+    "mfds": 2120,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 2.0,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 6,
+    "fleet_id": 4810,
+    "mfds": 33,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 2.9,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 34,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 1.4,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4810,
+    "mfds": 35,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 2.7,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 5,
+    "fleet_id": 4810,
+    "mfds": 36,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.4,
+    "anomaly_score": 1.3,
+    "fault_name": "DeadMan 스위치-경고",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 39,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 2.2,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 3,
+    "fleet_id": 4810,
+    "mfds": 41,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 2.7,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 5,
+    "fleet_id": 4810,
+    "mfds": 71,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.8,
+    "fault_name": "VVVF#2-추진차단-속도측정고장(POW BLOCK)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 103,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.4,
+    "anomaly_score": 1.2,
+    "fault_name": "VVVF#3-추진차단-속도측정고장(POW BLOCK)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 139,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.4,
+    "anomaly_score": 1.2,
+    "fault_name": "VVVF#6-추진차단-속도측정고장(POW BLOCK)",
+    "level": "D",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 175,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.4,
+    "anomaly_score": 1.2,
+    "fault_name": "VVVF#7-추진차단-속도측정고장(POW BLOCK)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 211,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.3,
+    "fault_name": "ATC#1-과속경고",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4810,
+    "mfds": 549,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 2.0,
+    "fault_name": "ATC#1-EB 명령",
+    "level": "W",
+    "cnt": 6,
+    "fleet_id": 4810,
+    "mfds": 550,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.3,
+    "fault_name": "ATC#1-FSB 명령",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4810,
+    "mfds": 551,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.0,
+    "anomaly_score": 6.0,
+    "fault_name": "ATC#8-과속경고",
+    "level": "W",
+    "cnt": 5,
+    "fleet_id": 4810,
+    "mfds": 580,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.3,
+    "anomaly_score": 2.8,
+    "fault_name": "ATC#8-EB 명령",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 581,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.9,
+    "anomaly_score": 6.1,
+    "fault_name": "ATC#8-FSB 명령",
+    "level": "W",
+    "cnt": 5,
+    "fleet_id": 4810,
+    "mfds": 582,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.7,
+    "fault_name": "실내객실표시기(PIB) 고장(Car#1)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1956,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "측면제어기(SOB) 매립형 고장(Car#1)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1958,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.6,
+    "fault_name": "측면제어기(SOB) 돌출형 고장(Car#1)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1959,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.6,
+    "fault_name": "정면행선표시기(FDI) 고장(Car#1)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1960,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.3,
+    "anomaly_score": 3.3,
+    "fault_name": "CCTV 모니터(CTM) 고장(Car#1)",
+    "level": "C",
+    "cnt": 2,
+    "fleet_id": 4810,
+    "mfds": 1962,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.7,
+    "fault_name": "중앙제어기(COB) 고장(Car#1)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1963,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.4,
+    "fault_name": "출력증폭기#2(AMP) 고장(Car#1)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1966,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.7,
+    "fault_name": "출력증폭기#1(AMP) 고장(Car#1)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1967,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "비상인터폰#2(PEI) 고장(Car#1)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1968,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.7,
+    "fault_name": "비상인터폰#1(PEI) 고장(Car#1)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1969,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "실내객실표시기(PIB) 고장(Car#2)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1972,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.0,
+    "fault_name": "출력증폭기#2(AMP) 고장(Car#2)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1976,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "출력증폭기#1(AMP) 고장(Car#2)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1977,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "비상인터폰#2(PEI) 고장(Car#2)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1978,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "비상인터폰#1(PEI) 고장(Car#2)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1979,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.8,
+    "fault_name": "실내객실표시기(PIB) 고장(Car#3)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1982,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.8,
+    "fault_name": "출력증폭기#2(AMP) 고장(Car#3)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1986,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.9,
+    "fault_name": "출력증폭기#1(AMP) 고장(Car#3)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1987,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.8,
+    "fault_name": "비상인터폰#2(PEI) 고장(Car#3)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1988,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.8,
+    "fault_name": "비상인터폰#1(PEI) 고장(Car#3)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1989,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.9,
+    "fault_name": "실내객실표시기(PIB) 고장(Car#4)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1992,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 2.8,
+    "anomaly_score": 20.8,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#4)",
+    "level": "C",
+    "cnt": 18,
+    "fleet_id": 4810,
+    "mfds": 1995,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "출력증폭기#2(AMP) 고장(Car#4)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1996,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "출력증폭기#1(AMP) 고장(Car#4)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1997,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.9,
+    "fault_name": "비상인터폰#2(PEI) 고장(Car#4)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1998,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.4,
+    "fault_name": "비상인터폰#1(PEI) 고장(Car#4)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 1999,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "실내객실표시기(PIB) 고장(Car#5)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2002,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "출력증폭기#2(AMP) 고장(Car#5)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2006,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "출력증폭기#1(AMP) 고장(Car#5)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2007,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "비상인터폰#2(PEI) 고장(Car#5)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2008,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.7,
+    "fault_name": "비상인터폰#1(PEI) 고장(Car#5)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2009,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.1,
+    "fault_name": "실내객실표시기(PIB) 고장(Car#6)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2012,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.0,
+    "fault_name": "출력증폭기#2(AMP) 고장(Car#6)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2016,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.9,
+    "fault_name": "출력증폭기#1(AMP) 고장(Car#6)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2017,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "비상인터폰#2(PEI) 고장(Car#6)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2018,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.7,
+    "fault_name": "비상인터폰#1(PEI) 고장(Car#6)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2019,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "실내객실표시기(PIB) 고장(Car#7)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2022,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "출력증폭기#2(AMP) 고장(Car#7)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2026,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "출력증폭기#1(AMP) 고장(Car#7)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2027,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "비상인터폰#2(PEI) 고장(Car#7)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2028,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "비상인터폰#1(PEI) 고장(Car#7)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2029,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.3,
+    "anomaly_score": 1.5,
+    "fault_name": "실내객실표시기(PIB) 고장(Car#8)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2032,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.6,
+    "fault_name": "측면제어기(SOB) 매립형 고장(Car#8)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2034,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.7,
+    "fault_name": "측면제어기(SOB) 돌출형 고장(Car#8)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2035,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.6,
+    "fault_name": "정면행선표시기(FDI) 고장(Car#8)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2036,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.7,
+    "fault_name": "CCTV 모니터(CTM) 고장(Car#8)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2038,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.7,
+    "fault_name": "중앙제어기(COB) 고장(Car#8)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2039,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.7,
+    "fault_name": "출력증폭기#2(AMP) 고장(Car#8)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2043,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.6,
+    "fault_name": "출력증폭기#1(AMP) 고장(Car#8)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2044,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.6,
+    "fault_name": "비상인터폰#2(PEI) 고장(Car#8)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2045,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.4,
+    "fault_name": "비상인터폰#1(PEI) 고장(Car#8)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2046,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.4,
+    "anomaly_score": 1.3,
+    "fault_name": "기타장치용 DC 회로차단기 차단(Car1)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2273,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#1 1위(R1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2372,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#1 3위(R2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2375,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#1 5위(R3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2378,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#2 1위(R1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2390,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#2 3위(R2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2393,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#2 5위(R3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2396,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#3 1위(R1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2408,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#3 3위(R2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2411,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#3 5위(R3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2414,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#4 1위(R1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2426,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#4 3위(R2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2429,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#4 5위(R3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2432,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#5 1위(R1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2444,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#5 3위(R2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2447,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#5 5위(R3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2450,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#6 1위(R1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2462,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#6 3위(R2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2465,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#6 5위(R3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2468,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#7 1위(R1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2480,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#7 3위(R2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2483,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#7 5위(R3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2486,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#8 2위(L1)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2489,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#8 4위(L2)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2492,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.1,
+    "fault_name": "DCU#8 6위(L3)-출입문 Enable 신호 에러",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4810,
+    "mfds": 2495,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 1.6,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 4,
+    "fleet_id": 4910,
+    "mfds": 33,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 2.0,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 6,
+    "fleet_id": 4910,
+    "mfds": 34,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 35,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.2,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 36,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.4,
+    "anomaly_score": 1.3,
+    "fault_name": "DeadMan 스위치-경고",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 39,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 41,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.2,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 71,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 1.6,
+    "fault_name": "ATC#1-EB 명령",
+    "level": "W",
+    "cnt": 4,
+    "fleet_id": 4910,
+    "mfds": 550,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.2,
+    "anomaly_score": 0.9,
+    "fault_name": "ATC#1-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 554,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.7,
+    "fault_name": "DeadMan 스위치-경고",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 562,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.3,
+    "anomaly_score": 2.0,
+    "fault_name": "ATC#8-EB 명령",
+    "level": "W",
+    "cnt": 6,
+    "fleet_id": 4910,
+    "mfds": 581,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 6.2,
+    "fault_name": "ATC#8-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 6,
+    "fleet_id": 4910,
+    "mfds": 585,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "DCU#5 2위(L1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1100,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.3,
+    "fault_name": "DCU#6 2위(L1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1208,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.5,
+    "fault_name": "DCU#6 4위(L2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1226,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 5.8,
+    "fault_name": "DCU#6 6위(L3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 1244,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.2,
+    "fault_name": "DCU#7 6위(L3)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1352,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "DCU#8 1위(R1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1478,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.2,
+    "anomaly_score": 1.9,
+    "fault_name": "HVAC#7-CO2 센서2 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1865,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.0,
+    "fault_name": "HVAC#7-CO2 센서1 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1866,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 9.8,
+    "anomaly_score": 7.5,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#3)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 1985,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 31.2,
+    "anomaly_score": 5.7,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#7)",
+    "level": "C",
+    "cnt": 18,
+    "fleet_id": 4910,
+    "mfds": 2025,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.8,
+    "fault_name": "비상인터폰 동작(Car#1-1)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 4910,
+    "mfds": 2048,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 2.1,
+    "fault_name": "PSD#1-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 3,
+    "fleet_id": 4910,
+    "mfds": 2098,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.4,
+    "anomaly_score": 2.1,
+    "fault_name": "PSD#1-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 3,
+    "fleet_id": 4910,
+    "mfds": 2103,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.2,
+    "fault_name": "PSD#8-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 2,
+    "fleet_id": 4910,
+    "mfds": 2111,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.7,
+    "fault_name": "PSD#8-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 3,
+    "fleet_id": 4910,
+    "mfds": 2116,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.5,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 36,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.5,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 71,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.6,
+    "fault_name": "BC 코크#2(차하) 차단(Car1)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 276,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.9,
+    "fault_name": "BC 코크#2(차하) 차단(Car2)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 314,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.9,
+    "fault_name": "BC 코크#2(차하) 차단(Car3)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 352,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.1,
+    "fault_name": "BC 코크#2(차하) 차단(Car4)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 390,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 4.0,
+    "fault_name": "BC 코크#2(차하) 차단(Car5)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 428,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.8,
+    "fault_name": "BC 코크#2(차하) 차단(Car6)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 466,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.7,
+    "fault_name": "BC 코크#2(차하) 차단(Car7)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 504,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.7,
+    "fault_name": "BC 코크#2(차하) 차단(Car8)",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 542,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.0,
+    "fault_name": "HVAC#7-CO2 센서1 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 1866,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "실내객실표시기(PIB) 고장(Car#5)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 2002,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 18.5,
+    "anomaly_score": 15.6,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#5)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 2004,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "출력증폭기#2(AMP) 고장(Car#5)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 2006,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 3.0,
+    "fault_name": "비상인터폰#2(PEI) 고장(Car#5)",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5010,
+    "mfds": 2008,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 1.7,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 5,
+    "fleet_id": 5110,
+    "mfds": 33,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 1.7,
+    "fault_name": "ATC 비상제동",
+    "level": "W",
+    "cnt": 5,
+    "fleet_id": 5110,
+    "mfds": 34,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 35,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.2,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 5110,
+    "mfds": 36,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 0.9,
+    "fault_name": "보안제동 동작",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 41,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 1.2,
+    "fault_name": "주차제동 동작",
+    "level": "W",
+    "cnt": 2,
+    "fleet_id": 5110,
+    "mfds": 71,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.4,
+    "anomaly_score": 1.7,
+    "fault_name": "ATC#1-EB 명령",
+    "level": "W",
+    "cnt": 5,
+    "fleet_id": 5110,
+    "mfds": 550,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.0,
+    "fault_name": "ATC#1-FSB 명령",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 551,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.2,
+    "anomaly_score": 2.3,
+    "fault_name": "ATC#1-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 3,
+    "fleet_id": 5110,
+    "mfds": 554,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.7,
+    "anomaly_score": 0.9,
+    "fault_name": "주간제어기 비상제동 취급",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 560,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 4.3,
+    "anomaly_score": 1.7,
+    "fault_name": "ATC#8-EB 명령",
+    "level": "W",
+    "cnt": 5,
+    "fleet_id": 5110,
+    "mfds": 581,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.3,
+    "anomaly_score": 4.7,
+    "fault_name": "ATC#8-PSD열림 검지로 인한 역행불가",
+    "level": "C",
+    "cnt": 5,
+    "fleet_id": 5110,
+    "mfds": 585,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.1,
+    "anomaly_score": 2.7,
+    "fault_name": "DCU#5 4위(L2)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 1118,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 0.0,
+    "anomaly_score": 3.4,
+    "fault_name": "DCU#8 2위(L1)-출입문 장애물검지",
+    "level": "W",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 1424,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 1.0,
+    "fault_name": "HVAC#7-CO2 센서1 고장",
+    "level": "C",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 1866,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 42.8,
+    "anomaly_score": 10.8,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#5)",
+    "level": "C",
+    "cnt": 19,
+    "fleet_id": 5110,
+    "mfds": 2005,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 37.3,
+    "anomaly_score": 7.9,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#6)",
+    "level": "C",
+    "cnt": 19,
+    "fleet_id": 5110,
+    "mfds": 2014,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 31.2,
+    "anomaly_score": 5.2,
+    "fault_name": "실내카메라#1(SCAM) 고장(Car#7)",
+    "level": "C",
+    "cnt": 19,
+    "fleet_id": 5110,
+    "mfds": 2025,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 2.4,
+    "anomaly_score": 25.0,
+    "fault_name": "실내카메라#2(SCAM) 고장(Car#8)",
+    "level": "C",
+    "cnt": 19,
+    "fleet_id": 5110,
+    "mfds": 2041,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.5,
+    "anomaly_score": 4.4,
+    "fault_name": "PSD#1-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 5,
+    "fleet_id": 5110,
+    "mfds": 2098,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.4,
+    "anomaly_score": 5.9,
+    "fault_name": "PSD#1-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 6,
+    "fleet_id": 5110,
+    "mfds": 2103,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 1.2,
+    "fault_name": "PSD#8-지상 PSD 장애(1계) ",
+    "level": "D",
+    "cnt": 1,
+    "fleet_id": 5110,
+    "mfds": 2111,
+    "detect_time": "2024-06-19"
+  },
+  {
+    "expect": 1.9,
+    "anomaly_score": 3.4,
+    "fault_name": "PSD#8-지상 PSD 장애(2계) ",
+    "level": "D",
+    "cnt": 5,
+    "fleet_id": 5110,
+    "mfds": 2116,
+    "detect_time": "2024-06-19"
+  }
+]
