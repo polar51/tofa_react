@@ -1,15 +1,10 @@
-import React, { lazy, Suspense } from 'react';
+import React from 'react';
 import './App.css';
 import './default.css';
 import { QueryClientProvider, QueryClient } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
-import { BrowserRouter } from 'react-router-dom';
-import NavigationBar from './layouts/navigationBar/NavigationBar';
-import Spinner from './components/element/Spinner';
-
-const FaultModeling = lazy(() => {
-  return import('./pages/fault-modeling/FaultModeling');
-});
+import { BrowserRouter as Router } from 'react-router-dom';
+import Content from './pages/Content';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -26,21 +21,16 @@ const queryClient = new QueryClient({
 });
 
 const App = () => {
-  return (
-    <>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <QueryClientProvider client={queryClient}>
-          <div id="wrap">
-            <NavigationBar />
-            <Suspense fallback={<Spinner />}>
-              <FaultModeling />
-            </Suspense>
-          </div>
-          <ReactQueryDevtools initialIsOpen={false} />
-        </QueryClientProvider>
-      </BrowserRouter>
-    </>
-  );
+  return <Content />;
 };
 
-export default App;
+export const Root = () => {
+  return (
+    <Router basename={process.env.PUBLIC_URL}>
+      <QueryClientProvider client={queryClient}>
+        <App />
+        <ReactQueryDevtools initialIsOpen={false} />
+      </QueryClientProvider>
+    </Router>
+  );
+};

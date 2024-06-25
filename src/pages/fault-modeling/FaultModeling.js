@@ -63,17 +63,23 @@ const FaultModeling = () => {
                   filter
                 </button>
                 <div className="md_graph f_cl">
-                  <Suspense fallback={<Spinner />}>
-                    <Breakdown id={selectedId} />
-                  </Suspense>
-                  <Suspense fallback={<Spinner />}>
-                    <Probability id={selectedId} />
-                  </Suspense>
+                  <div className="w_box">
+                    <Suspense fallback={<Spinner />}>
+                      <Breakdown id={selectedId} />
+                    </Suspense>
+                  </div>
+                  <div className="w_box">
+                    <Suspense fallback={<Spinner />}>
+                      <Probability id={selectedId} />
+                    </Suspense>
+                  </div>
                 </div>
 
-                <Suspense fallback={<Spinner />}>
-                  <List onRowClick={handleRowClick} />
-                </Suspense>
+                <div className="w_box d_list">
+                  <Suspense fallback={<Spinner />}>
+                    <List onRowClick={handleRowClick} />
+                  </Suspense>
+                </div>
               </div>
               <Suspense fallback={<Spinner />}>
                 <SideBar>

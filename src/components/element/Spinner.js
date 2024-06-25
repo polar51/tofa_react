@@ -1,16 +1,18 @@
 import React from 'react';
-import { HashLoader } from 'react-spinners';
+import { FadeLoader } from 'react-spinners';
 
-const override = {
+const spinnerBoxOverride = {
   display: 'flex',
   justifyContent: 'center',
+  alignItems: 'center',
+  height: '100%',
 };
 
 const Spinner = () => {
   return (
-    <>
-      <HashLoader color="#6e7cff" cssOverride={override} size={300} />
-    </>
+    <div style={spinnerBoxOverride}>
+      <FadeLoader color="#226af6" size={20} />
+    </div>
   );
 };
 
