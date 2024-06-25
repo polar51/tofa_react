@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tofa_react/static/css/main.627e9920.css",
-    "main.js": "/tofa_react/static/js/main.83e812a0.js",
-    "static/js/65.7b316f10.chunk.js": "/tofa_react/static/js/65.7b316f10.chunk.js",
+    "main.js": "/tofa_react/static/js/main.26098ced.js",
+    "static/js/65.5d9f2b7a.chunk.js": "/tofa_react/static/js/65.5d9f2b7a.chunk.js",
     "static/js/390.07c88f42.chunk.js": "/tofa_react/static/js/390.07c88f42.chunk.js",
     "static/js/763.1b1f527d.chunk.js": "/tofa_react/static/js/763.1b1f527d.chunk.js",
     "static/js/262.39bb4903.chunk.js": "/tofa_react/static/js/262.39bb4903.chunk.js",
@@ -26,8 +26,8 @@
     "static/media/search.svg": "/tofa_react/static/media/search.52803f190556b712a8e0.svg",
     "index.html": "/tofa_react/index.html",
     "main.627e9920.css.map": "/tofa_react/static/css/main.627e9920.css.map",
-    "main.83e812a0.js.map": "/tofa_react/static/js/main.83e812a0.js.map",
-    "65.7b316f10.chunk.js.map": "/tofa_react/static/js/65.7b316f10.chunk.js.map",
+    "main.26098ced.js.map": "/tofa_react/static/js/main.26098ced.js.map",
+    "65.5d9f2b7a.chunk.js.map": "/tofa_react/static/js/65.5d9f2b7a.chunk.js.map",
     "390.07c88f42.chunk.js.map": "/tofa_react/static/js/390.07c88f42.chunk.js.map",
     "763.1b1f527d.chunk.js.map": "/tofa_react/static/js/763.1b1f527d.chunk.js.map",
     "262.39bb4903.chunk.js.map": "/tofa_react/static/js/262.39bb4903.chunk.js.map",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.627e9920.css",
-    "static/js/main.83e812a0.js"
+    "static/js/main.26098ced.js"
   ]
 }
