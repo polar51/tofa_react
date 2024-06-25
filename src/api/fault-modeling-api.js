@@ -1,9 +1,8 @@
 import { stringify } from '@lib/qs';
 import axiosInstance from '../utils/http-client';
 
-const listFaultModeling = async filter => {
-  const query = stringify(filter);
-  const { data } = await axiosInstance.get(`/fault-modeling-list.json${query}`);
+const listFaultModeling = async () => {
+  const { data } = await axiosInstance.get('/fault-modeling-list.json');
 
   return data;
 };

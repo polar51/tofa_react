@@ -3,8 +3,8 @@ import { useFaultModelingTrendGet } from '@hooks/api/fault-modeling-hook';
 import BreakdownCharts from './BreakdownCharts';
 import EmptyCharts from './EmptyCharts';
 
-const Breakdown = () => {
-  const { data } = useFaultModelingTrendGet();
+const Breakdown = ({ id }) => {
+  const { data = [] } = useFaultModelingTrendGet(id);
 
   return (
     <>

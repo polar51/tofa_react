@@ -25,6 +25,7 @@ const FaultModeling = () => {
     defaultValues: defaultFilterOptions,
   });
 
+  const [selectedId, setSelectedId] = useState('');
   const [showSidebar, setShowSidebar] = useState(true);
 
   const handleSidebarShow = useCallback(() => {
@@ -34,6 +35,10 @@ const FaultModeling = () => {
       setShowSidebar(true);
     }
   }, [showSidebar]);
+
+  const handleRowClick = useCallback(id => {
+    setSelectedId(id.toString());
+  }, []);
 
   return (
     <>
@@ -55,19 +60,19 @@ const FaultModeling = () => {
                   }}
                   type="button"
                 >
-                  test
+                  filter
                 </button>
                 <div className="md_graph f_cl">
                   <Suspense fallback={<Spinner />}>
-                    <Breakdown />
+                    <Breakdown id={selectedId} />
                   </Suspense>
                   <Suspense fallback={<Spinner />}>
-                    <Probability />
+                    <Probability id={selectedId} />
                   </Suspense>
                 </div>
 
                 <Suspense fallback={<Spinner />}>
-                  <List />
+                  <List onRowClick={handleRowClick} />
                 </Suspense>
               </div>
               <Suspense fallback={<Spinner />}>

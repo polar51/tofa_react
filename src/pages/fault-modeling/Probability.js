@@ -3,8 +3,8 @@ import EmptyCharts from './EmptyCharts';
 import ProbabilityCharts from './ProbabilityCharts';
 import { useFrequencyGet } from '../../hooks/api/fault-modeling-hook';
 
-const Probability = () => {
-  const { data } = useFrequencyGet();
+const Probability = ({ id }) => {
+  const { data = [] } = useFrequencyGet(id);
 
   return (
     <>

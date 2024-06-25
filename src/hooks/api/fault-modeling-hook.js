@@ -48,7 +48,8 @@ const useFrequencyGet = id => {
   return useQuery({
     queryKey: FREQUENCY.detail(id),
     queryFn: () => faultModelingApi.getFrequency(id),
-    enabled: false,
+    enabled: id.length > 0,
+    suspense: id.length > 0,
   });
 };
 
@@ -56,7 +57,8 @@ const useFaultModelingTrendGet = id => {
   return useQuery({
     queryKey: FAULT_MODELING_TREND.detail(id),
     queryFn: () => faultModelingApi.getFaultModelingTrend(id),
-    enabled: false,
+    enabled: id.length > 0,
+    suspense: id.length > 0,
   });
 };
 

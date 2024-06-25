@@ -44,7 +44,7 @@ const RowCreator = ({ faultInfo, ...rest }) => {
   );
 };
 
-const List = () => {
+const List = ({ onRowClick }) => {
   const { control } = useFormContext();
   const filterOptions = useWatch({
     control,
@@ -133,7 +133,9 @@ const List = () => {
                         height: '38px',
                         transform: `translateY(${row.start}px)`,
                         display: 'flex',
+                        cursor: 'pointer',
                       }}
+                      onClick={() => onRowClick(row.key)}
                     />
                   ) : (
                     <EmptyRowCreator />
