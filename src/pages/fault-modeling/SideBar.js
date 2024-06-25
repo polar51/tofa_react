@@ -347,16 +347,6 @@ const SideBar = ({ children }) => {
               </ul>
             </dd>
           </dl>
-
-          {/* <Controller */}
-          {/*  name="carNo" */}
-          {/*  control={control} */}
-          {/*  ={['01', '02', '03', '04', '05', '06', '07', '08']} */}
-          {/*  render={({ field }) => ( */}
-
-          {/*  )} */}
-          {/* /> */}
-
           <dl>
             <dt className="lang" key="faultsFaultsGrade">
               고장등급

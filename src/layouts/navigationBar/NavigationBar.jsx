@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import logo from '@assets/images/logo.png';
 import bell from '@assets/images/ic_bell_wh_off.png';
 import Weather from '@components/module/Weather';
+import { Link } from 'react-router-dom';
 
 const NavigationBar = () => {
   const [time, setTime] = useState('00:00:00');
@@ -37,9 +38,9 @@ const NavigationBar = () => {
     <>
       <div id="header">
         <div className="t_area">
-          <a href="#n" className="bt_header">
+          <Link href="#n" className="bt_header">
             헤더 여닫기
-          </a>
+          </Link>
           <h1>
             <img
               src={logo}
@@ -85,29 +86,29 @@ const NavigationBar = () => {
               </span>
               <ul>
                 <li className={idx === 2 ? 'on' : ''}>
-                  <a href="/" className="lang" key="totalAllFleets1">
+                  <Link href="/" className="lang" key="totalAllFleets1">
                     전체 편성
-                  </a>
+                  </Link>
                 </li>
                 <li className={idx === 3 ? 'on' : ''}>
-                  <a href="/" className="lang" key="totalfleets">
+                  <Link href="/" className="lang" key="totalfleets">
                     개별 편성
-                  </a>
+                  </Link>
                 </li>
                 <li className={idx === 4 ? 'on' : ''}>
-                  <a
+                  <Link
                     href="/"
                     // onClick="sessionStorage.setItem('graph','c01')"
                     className="lang"
                     key="totalOperation"
                   >
                     운행
-                  </a>
+                  </Link>
                 </li>
                 <li className={idx === 5 ? 'on' : ''}>
-                  <a href="/" className="lang" key="totalPerformance">
+                  <Link href="/" className="lang" key="totalPerformance">
                     퍼포먼스
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -117,15 +118,15 @@ const NavigationBar = () => {
               </span>
               <ul>
                 <li className={idx === 7 ? 'on' : ''}>
-                  <a href="/" className="lang" key="totalFaultsToday">
+                  <Link href="/" className="lang" key="totalFaultsToday">
                     고장 투데이
-                  </a>
+                  </Link>
                 </li>
 
                 <li className={idx === 8 ? 'on' : ''}>
-                  <a href="/" className="lang" key="totalStatistics">
+                  <Link href="/" className="lang" key="totalStatistics">
                     고장 통계
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -135,29 +136,24 @@ const NavigationBar = () => {
               </span>
               <ul>
                 <li className={idx === 10 ? 'on' : ''}>
-                  <a href="/" className="lang" key="totalFaultsHistory">
+                  <Link href="/" className="lang" key="totalFaultsHistory">
                     고장 이력
-                  </a>
+                  </Link>
                 </li>
                 <li className={idx === 11 ? 'on' : ''}>
-                  <a
-                    href="/"
-                    // onClick="sessionStorage.setItem('graph','c01')"
-                    className="lang"
-                    key="totalViewFaults"
-                  >
+                  <Link href="/" className="lang" key="totalViewFaults">
                     고장 분석
-                  </a>
+                  </Link>
                 </li>
                 <li className={idx === 12 ? 'on' : ''}>
-                  <a href="/" className="lang" key="totalTrend">
+                  <Link href="/" className="lang" key="totalTrend">
                     트렌드
-                  </a>
+                  </Link>
                 </li>
                 <li className={idx === 13 ? 'on' : ''}>
-                  <a href="/" className="lang" key="totalModeling1">
+                  <Link href="/" className="lang" key="totalModeling1">
                     모델링
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -167,40 +163,40 @@ const NavigationBar = () => {
               </span>
               <ul>
                 <li className={idx === 15 ? 'on' : ''}>
-                  <a href="/" className="lang" key="totalFleetDiagnosis">
+                  <Link href="/" className="lang" key="totalFleetDiagnosis">
                     편성 진단
-                  </a>
+                  </Link>
                 </li>
                 <li className={idx === 16 ? 'on' : ''}>
-                  <a href="/" className="lang" key="totalTrend">
+                  <Link href="/" className="lang" key="totalTrend">
                     트렌드
-                  </a>
+                  </Link>
                 </li>
                 <li className={idx === 17 ? 'on' : ''}>
-                  <a href="/" className="lang" key="totalModeling2">
+                  <Link href="/" className="lang" key="totalModeling2">
                     모델링
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
           </ul>
         </div>
 
-        <a href="/" className="bt_txt bt_left bt_admin">
+        <Link href="/" className="bt_txt bt_left bt_admin">
           <span className="lang" key="adminAdminMode">
             관리자 모드
           </span>
-        </a>
+        </Link>
 
-        <a href="/" className="bt_txt bt_left bt_mypage">
+        <Link href="/" className="bt_txt bt_left bt_mypage">
           <span>마이 페이지</span>
-        </a>
-        <a href="/" className="bt_txt bt_left bt_download">
+        </Link>
+        <Link href="/" className="bt_txt bt_left bt_download">
           <span>다운로드</span>
-        </a>
-        <a href="/" className="bt_txt bt_left bt_logout">
+        </Link>
+        <Link href="/" className="bt_txt bt_left bt_logout">
           <span>로그아웃</span>
-        </a>
+        </Link>
         <div className="copyright">DESIGNED BY HMSOLUTION INC.</div>
       </div>
     </>
