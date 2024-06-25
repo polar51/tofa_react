@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/tofa_react/static/css/main.627e9920.css",
-    "main.js": "/tofa_react/static/js/main.c8706db8.js",
-    "static/js/65.69da0621.chunk.js": "/tofa_react/static/js/65.69da0621.chunk.js",
-    "static/js/390.631d3c13.chunk.js": "/tofa_react/static/js/390.631d3c13.chunk.js",
-    "static/js/763.8a7de005.chunk.js": "/tofa_react/static/js/763.8a7de005.chunk.js",
+    "main.js": "/tofa_react/static/js/main.83e812a0.js",
+    "static/js/65.7b316f10.chunk.js": "/tofa_react/static/js/65.7b316f10.chunk.js",
+    "static/js/390.07c88f42.chunk.js": "/tofa_react/static/js/390.07c88f42.chunk.js",
+    "static/js/763.1b1f527d.chunk.js": "/tofa_react/static/js/763.1b1f527d.chunk.js",
     "static/js/262.39bb4903.chunk.js": "/tofa_react/static/js/262.39bb4903.chunk.js",
     "static/js/113.4c81f153.chunk.js": "/tofa_react/static/js/113.4c81f153.chunk.js",
     "static/css/688.43e2c47e.chunk.css": "/tofa_react/static/css/688.43e2c47e.chunk.css",
@@ -26,16 +26,16 @@
     "static/media/search.svg": "/tofa_react/static/media/search.52803f190556b712a8e0.svg",
     "index.html": "/tofa_react/index.html",
     "main.627e9920.css.map": "/tofa_react/static/css/main.627e9920.css.map",
-    "main.c8706db8.js.map": "/tofa_react/static/js/main.c8706db8.js.map",
-    "65.69da0621.chunk.js.map": "/tofa_react/static/js/65.69da0621.chunk.js.map",
-    "390.631d3c13.chunk.js.map": "/tofa_react/static/js/390.631d3c13.chunk.js.map",
-    "763.8a7de005.chunk.js.map": "/tofa_react/static/js/763.8a7de005.chunk.js.map",
+    "main.83e812a0.js.map": "/tofa_react/static/js/main.83e812a0.js.map",
+    "65.7b316f10.chunk.js.map": "/tofa_react/static/js/65.7b316f10.chunk.js.map",
+    "390.07c88f42.chunk.js.map": "/tofa_react/static/js/390.07c88f42.chunk.js.map",
+    "763.1b1f527d.chunk.js.map": "/tofa_react/static/js/763.1b1f527d.chunk.js.map",
     "262.39bb4903.chunk.js.map": "/tofa_react/static/js/262.39bb4903.chunk.js.map",
     "113.4c81f153.chunk.js.map": "/tofa_react/static/js/113.4c81f153.chunk.js.map",
     "688.43e2c47e.chunk.css.map": "/tofa_react/static/css/688.43e2c47e.chunk.css.map"
   },
   "entrypoints": [
     "static/css/main.627e9920.css",
-    "static/js/main.c8706db8.js"
+    "static/js/main.83e812a0.js"
   ]
 }
