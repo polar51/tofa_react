@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tofa_react/static/css/main.627e9920.css",
-    "main.js": "/tofa_react/static/js/main.576ae35e.js",
+    "main.js": "/tofa_react/static/js/main.0d78377a.js",
     "static/js/65.9dbeb223.chunk.js": "/tofa_react/static/js/65.9dbeb223.chunk.js",
     "static/js/390.631d3c13.chunk.js": "/tofa_react/static/js/390.631d3c13.chunk.js",
     "static/js/665.fcead77b.chunk.js": "/tofa_react/static/js/665.fcead77b.chunk.js",
@@ -25,7 +25,7 @@
     "static/media/search.svg": "/tofa_react/static/media/search.52803f190556b712a8e0.svg",
     "index.html": "/tofa_react/index.html",
     "main.627e9920.css.map": "/tofa_react/static/css/main.627e9920.css.map",
-    "main.576ae35e.js.map": "/tofa_react/static/js/main.576ae35e.js.map",
+    "main.0d78377a.js.map": "/tofa_react/static/js/main.0d78377a.js.map",
     "65.9dbeb223.chunk.js.map": "/tofa_react/static/js/65.9dbeb223.chunk.js.map",
     "390.631d3c13.chunk.js.map": "/tofa_react/static/js/390.631d3c13.chunk.js.map",
     "665.fcead77b.chunk.js.map": "/tofa_react/static/js/665.fcead77b.chunk.js.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.627e9920.css",
-    "static/js/main.576ae35e.js"
+    "static/js/main.0d78377a.js"
   ]
 }
