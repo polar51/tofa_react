@@ -85,22 +85,18 @@ const NavigationBar = () => {
               </span>
               <ul>
                 <li className={idx === 2 ? 'on' : ''}>
-                  <a href="index.html" className="lang" key="totalAllFleets1">
+                  <a href="/" className="lang" key="totalAllFleets1">
                     전체 편성
                   </a>
                 </li>
                 <li className={idx === 3 ? 'on' : ''}>
-                  <a
-                    href="01monitoring/02individual_organization.html"
-                    className="lang"
-                    key="totalfleets"
-                  >
+                  <a href="/" className="lang" key="totalfleets">
                     개별 편성
                   </a>
                 </li>
                 <li className={idx === 4 ? 'on' : ''}>
                   <a
-                    href="01monitoring/03operation.html"
+                    href="/"
                     // onClick="sessionStorage.setItem('graph','c01')"
                     className="lang"
                     key="totalOperation"
@@ -109,11 +105,7 @@ const NavigationBar = () => {
                   </a>
                 </li>
                 <li className={idx === 5 ? 'on' : ''}>
-                  <a
-                    href="01monitoring/04performance.html"
-                    className="lang"
-                    key="totalPerformance"
-                  >
+                  <a href="/" className="lang" key="totalPerformance">
                     퍼포먼스
                   </a>
                 </li>
@@ -125,21 +117,13 @@ const NavigationBar = () => {
               </span>
               <ul>
                 <li className={idx === 7 ? 'on' : ''}>
-                  <a
-                    href="02dashboard/01breakdown_today.html"
-                    className="lang"
-                    key="totalFaultsToday"
-                  >
+                  <a href="/" className="lang" key="totalFaultsToday">
                     고장 투데이
                   </a>
                 </li>
 
                 <li className={idx === 8 ? 'on' : ''}>
-                  <a
-                    href="/fault/fault-stat"
-                    className="lang"
-                    key="totalStatistics"
-                  >
+                  <a href="/" className="lang" key="totalStatistics">
                     고장 통계
                   </a>
                 </li>
@@ -151,17 +135,13 @@ const NavigationBar = () => {
               </span>
               <ul>
                 <li className={idx === 10 ? 'on' : ''}>
-                  <a
-                    href="03breakdown/03history.html"
-                    className="lang"
-                    key="totalFaultsHistory"
-                  >
+                  <a href="/" className="lang" key="totalFaultsHistory">
                     고장 이력
                   </a>
                 </li>
                 <li className={idx === 11 ? 'on' : ''}>
                   <a
-                    href="03breakdown/02inquiry.html"
+                    href="/"
                     // onClick="sessionStorage.setItem('graph','c01')"
                     className="lang"
                     key="totalViewFaults"
@@ -170,20 +150,12 @@ const NavigationBar = () => {
                   </a>
                 </li>
                 <li className={idx === 12 ? 'on' : ''}>
-                  <a
-                    href="03breakdown/04trend.html"
-                    className="lang"
-                    key="totalTrend"
-                  >
+                  <a href="/" className="lang" key="totalTrend">
                     트렌드
                   </a>
                 </li>
                 <li className={idx === 13 ? 'on' : ''}>
-                  <a
-                    href="03breakdown/05modeling.html"
-                    className="lang"
-                    key="totalModeling1"
-                  >
+                  <a href="/" className="lang" key="totalModeling1">
                     모델링
                   </a>
                 </li>
@@ -195,29 +167,17 @@ const NavigationBar = () => {
               </span>
               <ul>
                 <li className={idx === 15 ? 'on' : ''}>
-                  <a
-                    href="04diagnosis/01organization.html"
-                    className="lang"
-                    key="totalFleetDiagnosis"
-                  >
+                  <a href="/" className="lang" key="totalFleetDiagnosis">
                     편성 진단
                   </a>
                 </li>
                 <li className={idx === 16 ? 'on' : ''}>
-                  <a
-                    href="04diagnosis/02trend.html"
-                    className="lang"
-                    key="totalTrend"
-                  >
+                  <a href="/" className="lang" key="totalTrend">
                     트렌드
                   </a>
                 </li>
                 <li className={idx === 17 ? 'on' : ''}>
-                  <a
-                    href="04diagnosis/03modeling.html"
-                    className="lang"
-                    key="totalModeling2"
-                  >
+                  <a href="/" className="lang" key="totalModeling2">
                     모델링
                   </a>
                 </li>
@@ -226,19 +186,19 @@ const NavigationBar = () => {
           </ul>
         </div>
 
-        <a href="/public" className="bt_txt bt_left bt_admin">
+        <a href="/" className="bt_txt bt_left bt_admin">
           <span className="lang" key="adminAdminMode">
             관리자 모드
           </span>
         </a>
 
-        <a href="/public" className="bt_txt bt_left bt_mypage">
+        <a href="/" className="bt_txt bt_left bt_mypage">
           <span>마이 페이지</span>
         </a>
-        <a href="/public" className="bt_txt bt_left bt_download">
+        <a href="/" className="bt_txt bt_left bt_download">
           <span>다운로드</span>
         </a>
-        <a href="/public" className="bt_txt bt_left bt_logout">
+        <a href="/" className="bt_txt bt_left bt_logout">
           <span>로그아웃</span>
         </a>
         <div className="copyright">DESIGNED BY HMSOLUTION INC.</div>

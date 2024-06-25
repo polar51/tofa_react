@@ -4,6 +4,7 @@ import { useFormContext, useWatch } from 'react-hook-form';
 import { FAULTMODELING } from '@constants/index';
 import { useFaultList, useFleetIdList } from '@hooks/api';
 import FaultCodeTable from './FaultCodeTable';
+import SidebarDatePicker from './SidebarDatePicker';
 
 const FleetIdButtonCreator = ({ id, idx, ...rest }) => {
   const { fleetId } = id;
@@ -154,11 +155,18 @@ const SideBar = ({ children }) => {
 
   const checkedAllCheckerToFleetId = useCallback(() => {
     const defaultValues = [...fleetIds];
-
     const getSelected = getValues('fleet_id');
 
     return getSelected.length === defaultValues.length;
   }, [fleetIds, getValues]);
+
+  const handleDatePickerChange = useCallback(
+    (start, end) => {
+      setValue('startDate', start);
+      setValue('endDate', end);
+    },
+    [setValue],
+  );
 
   return (
     <>
@@ -166,12 +174,7 @@ const SideBar = ({ children }) => {
         {children}
         <div className="period lang" key="faultsPeriod">
           기간
-          <input
-            type="text"
-            id="daterange"
-            name="daterange"
-            className="period"
-          />
+          <SidebarDatePicker onDatePick={handleDatePickerChange} />
           <div className="cb_all" style={{ display: 'inline-block' }}>
             <select
               id="step"
