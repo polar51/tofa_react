@@ -3,6 +3,7 @@ import { useVirtualizer } from '@tanstack/react-virtual';
 import { useFormContext, useWatch } from 'react-hook-form';
 import { FAULTMODELING } from '@constants/index';
 import { useFaultList, useFleetIdList } from '@hooks/api';
+import { Link } from 'react-router-dom';
 import FaultCodeTable from './FaultCodeTable';
 import SidebarDatePicker from './SidebarDatePicker';
 
@@ -193,9 +194,9 @@ const SideBar = ({ children }) => {
           </div>
         </div>
 
-        <a href="/" className="bt_reset">
+        <Link to="/" className="bt_reset">
           검색
-        </a>
+        </Link>
 
         {/* // options */}
         <div className="options f_cl">

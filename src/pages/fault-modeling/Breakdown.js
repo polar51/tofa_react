@@ -12,7 +12,7 @@ const Breakdown = ({ id }) => {
       <h3>고장추이</h3>
 
       <Link
-        href="#n"
+        to="#n"
         className="bt_b_blue bt_download lang"
         key="operationDownload"
       >

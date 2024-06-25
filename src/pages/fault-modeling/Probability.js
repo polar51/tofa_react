@@ -11,7 +11,7 @@ const Probability = ({ id }) => {
     <>
       <h3>확률 분포</h3>
       <Link
-        href="#n"
+        to="#n"
         className="bt_b_blue bt_download lang"
         key="operationDownload"
       >

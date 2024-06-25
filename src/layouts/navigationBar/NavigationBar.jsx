@@ -38,7 +38,7 @@ const NavigationBar = () => {
     <>
       <div id="header">
         <div className="t_area">
-          <Link href="#n" className="bt_header">
+          <Link to="#n" className="bt_header">
             헤더 여닫기
           </Link>
           <h1>
@@ -86,18 +86,18 @@ const NavigationBar = () => {
               </span>
               <ul>
                 <li className={idx === 2 ? 'on' : ''}>
-                  <Link href="/" className="lang" key="totalAllFleets1">
+                  <Link to="/" className="lang" key="totalAllFleets1">
                     전체 편성
                   </Link>
                 </li>
                 <li className={idx === 3 ? 'on' : ''}>
-                  <Link href="/" className="lang" key="totalfleets">
+                  <Link to="/" className="lang" key="totalfleets">
                     개별 편성
                   </Link>
                 </li>
                 <li className={idx === 4 ? 'on' : ''}>
                   <Link
-                    href="/"
+                    to="/"
                     // onClick="sessionStorage.setItem('graph','c01')"
                     className="lang"
                     key="totalOperation"
@@ -106,7 +106,7 @@ const NavigationBar = () => {
                   </Link>
                 </li>
                 <li className={idx === 5 ? 'on' : ''}>
-                  <Link href="/" className="lang" key="totalPerformance">
+                  <Link to="/" className="lang" key="totalPerformance">
                     퍼포먼스
                   </Link>
                 </li>
@@ -118,13 +118,13 @@ const NavigationBar = () => {
               </span>
               <ul>
                 <li className={idx === 7 ? 'on' : ''}>
-                  <Link href="/" className="lang" key="totalFaultsToday">
+                  <Link to="/" className="lang" key="totalFaultsToday">
                     고장 투데이
                   </Link>
                 </li>
 
                 <li className={idx === 8 ? 'on' : ''}>
-                  <Link href="/" className="lang" key="totalStatistics">
+                  <Link to="/" className="lang" key="totalStatistics">
                     고장 통계
                   </Link>
                 </li>
@@ -136,22 +136,22 @@ const NavigationBar = () => {
               </span>
               <ul>
                 <li className={idx === 10 ? 'on' : ''}>
-                  <Link href="/" className="lang" key="totalFaultsHistory">
+                  <Link to="/" className="lang" key="totalFaultsHistory">
                     고장 이력
                   </Link>
                 </li>
                 <li className={idx === 11 ? 'on' : ''}>
-                  <Link href="/" className="lang" key="totalViewFaults">
+                  <Link to="/" className="lang" key="totalViewFaults">
                     고장 분석
                   </Link>
                 </li>
                 <li className={idx === 12 ? 'on' : ''}>
-                  <Link href="/" className="lang" key="totalTrend">
+                  <Link to="/" className="lang" key="totalTrend">
                     트렌드
                   </Link>
                 </li>
                 <li className={idx === 13 ? 'on' : ''}>
-                  <Link href="/" className="lang" key="totalModeling1">
+                  <Link to="/" className="lang" key="totalModeling1">
                     모델링
                   </Link>
                 </li>
@@ -163,17 +163,17 @@ const NavigationBar = () => {
               </span>
               <ul>
                 <li className={idx === 15 ? 'on' : ''}>
-                  <Link href="/" className="lang" key="totalFleetDiagnosis">
+                  <Link to="/" className="lang" key="totalFleetDiagnosis">
                     편성 진단
                   </Link>
                 </li>
                 <li className={idx === 16 ? 'on' : ''}>
-                  <Link href="/" className="lang" key="totalTrend">
+                  <Link to="/" className="lang" key="totalTrend">
                     트렌드
                   </Link>
                 </li>
                 <li className={idx === 17 ? 'on' : ''}>
-                  <Link href="/" className="lang" key="totalModeling2">
+                  <Link to="/" className="lang" key="totalModeling2">
                     모델링
                   </Link>
                 </li>
@@ -182,19 +182,19 @@ const NavigationBar = () => {
           </ul>
         </div>
 
-        <Link href="/" className="bt_txt bt_left bt_admin">
+        <Link to="/" className="bt_txt bt_left bt_admin">
           <span className="lang" key="adminAdminMode">
             관리자 모드
           </span>
         </Link>
 
-        <Link href="/" className="bt_txt bt_left bt_mypage">
+        <Link to="/" className="bt_txt bt_left bt_mypage">
           <span>마이 페이지</span>
         </Link>
-        <Link href="/" className="bt_txt bt_left bt_download">
+        <Link to="/" className="bt_txt bt_left bt_download">
           <span>다운로드</span>
         </Link>
-        <Link href="/" className="bt_txt bt_left bt_logout">
+        <Link to="/" className="bt_txt bt_left bt_logout">
           <span>로그아웃</span>
         </Link>
         <div className="copyright">DESIGNED BY HMSOLUTION INC.</div>

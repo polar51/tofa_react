@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const RowCreator = ({ faultCode, idx, ...rest }) => {
   return (
@@ -39,9 +40,9 @@ const FaultCodeTable = ({ rowVirtualizer, parentRef, data }) => {
           }}
         >
           고장코드
-          <a href="/" id="filterBtn" className="bt_filter">
+          <Link to="/" id="filterBtn" className="bt_filter">
             필터
-          </a>
+          </Link>
         </dt>
         <div className="t_area">
           <table className="tb_data">
