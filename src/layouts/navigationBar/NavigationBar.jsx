@@ -96,12 +96,7 @@ const NavigationBar = () => {
                   </Link>
                 </li>
                 <li className={idx === 4 ? 'on' : ''}>
-                  <Link
-                    to="/"
-                    // onClick="sessionStorage.setItem('graph','c01')"
-                    className="lang"
-                    key="totalOperation"
-                  >
+                  <Link to="/" className="lang" key="totalOperation">
                     운행
                   </Link>
                 </li>

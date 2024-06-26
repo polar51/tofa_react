@@ -3,8 +3,12 @@ import { FormProvider, useForm } from 'react-hook-form';
 import SearchButton from '@components/module/SearchButton';
 import Spinner from '@components/element/Spinner';
 import { FAULTMODELING } from '@constants/index';
-import Breakdown from './Breakdown';
-import Probability from './Probability';
+import { Link } from 'react-router-dom';
+
+const Breakdown = lazy(() => import('./Breakdown'));
+const Probability = lazy(() => import('./Probability'));
+const List = lazy(() => import('./List'));
+const SideBar = lazy(() => import('./SideBar'));
 
 const defaultFilterOptions = {
   protocol_type: FAULTMODELING.PROTOCOL_TYPE,
@@ -16,9 +20,6 @@ const defaultFilterOptions = {
   startDate: '2024-06-14',
   endDate: '2024-06-16',
 };
-
-const List = lazy(() => import('./List'));
-const SideBar = lazy(() => import('./SideBar'));
 
 const FaultModeling = () => {
   const methods = useForm({
@@ -64,21 +65,48 @@ const FaultModeling = () => {
                 </button>
                 <div className="md_graph f_cl">
                   <div className="w_box">
-                    <Suspense fallback={<Spinner />}>
-                      <Breakdown id={selectedId} />
-                    </Suspense>
+                    <h3>고장추이</h3>
+
+                    <Link
+                      to="#n"
+                      className="bt_b_blue bt_download lang"
+                      key="operationDownload"
+                    >
+                      다운로드
+                    </Link>
+                    <div className="graph">
+                      <div id="failureTrend">
+                        <Suspense fallback={<Spinner />}>
+                          <Breakdown id={selectedId} />
+                        </Suspense>
+                      </div>
+                    </div>
                   </div>
                   <div className="w_box">
-                    <Suspense fallback={<Spinner />}>
-                      <Probability id={selectedId} />
-                    </Suspense>
+                    <h3>확률 분포</h3>
+                    <Link
+                      to="#n"
+                      className="bt_b_blue bt_download lang"
+                      key="operationDownload"
+                    >
+                      다운로드
+                    </Link>
+                    <div className="graph">
+                      <div id="frequency">
+                        <Suspense fallback={<Spinner />}>
+                          <Probability id={selectedId} />
+                        </Suspense>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
                 <div className="w_box d_list">
-                  <Suspense fallback={<Spinner />}>
-                    <List onRowClick={handleRowClick} />
-                  </Suspense>
+                  <div className="data_sc">
+                    <Suspense fallback={<Spinner />}>
+                      <List onRowClick={handleRowClick} />
+                    </Suspense>
+                  </div>
                 </div>
               </div>
               <Suspense fallback={<Spinner />}>
