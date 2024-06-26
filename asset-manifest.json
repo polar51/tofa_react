@@ -1,12 +1,15 @@
 {
   "files": {
     "main.css": "/tofa_react/static/css/main.627e9920.css",
-    "main.js": "/tofa_react/static/js/main.f05e0b03.js",
-    "static/js/65.1be9504b.chunk.js": "/tofa_react/static/js/65.1be9504b.chunk.js",
-    "static/js/390.07c88f42.chunk.js": "/tofa_react/static/js/390.07c88f42.chunk.js",
-    "static/js/763.352f7839.chunk.js": "/tofa_react/static/js/763.352f7839.chunk.js",
-    "static/js/262.39bb4903.chunk.js": "/tofa_react/static/js/262.39bb4903.chunk.js",
-    "static/js/113.4c81f153.chunk.js": "/tofa_react/static/js/113.4c81f153.chunk.js",
+    "main.js": "/tofa_react/static/js/main.227f27a0.js",
+    "static/js/852.e5c3e801.chunk.js": "/tofa_react/static/js/852.e5c3e801.chunk.js",
+    "static/js/327.e35accbf.chunk.js": "/tofa_react/static/js/327.e35accbf.chunk.js",
+    "static/js/396.8b7f99b6.chunk.js": "/tofa_react/static/js/396.8b7f99b6.chunk.js",
+    "static/js/390.f42c0c83.chunk.js": "/tofa_react/static/js/390.f42c0c83.chunk.js",
+    "static/js/763.21e7b9b4.chunk.js": "/tofa_react/static/js/763.21e7b9b4.chunk.js",
+    "static/js/180.62b19731.chunk.js": "/tofa_react/static/js/180.62b19731.chunk.js",
+    "static/js/983.c46b5280.chunk.js": "/tofa_react/static/js/983.c46b5280.chunk.js",
+    "static/js/34.dcaafc00.chunk.js": "/tofa_react/static/js/34.dcaafc00.chunk.js",
     "static/css/688.43e2c47e.chunk.css": "/tofa_react/static/css/688.43e2c47e.chunk.css",
     "static/media/iconfont.svg?t=1519785387995": "/tofa_react/static/media/iconfont.d8b6be856bc7471f0982.svg",
     "static/media/ps_error503.png": "/tofa_react/static/media/ps_error503.46af1015db49240b48f4.png",
@@ -26,16 +29,19 @@
     "static/media/search.svg": "/tofa_react/static/media/search.52803f190556b712a8e0.svg",
     "index.html": "/tofa_react/index.html",
     "main.627e9920.css.map": "/tofa_react/static/css/main.627e9920.css.map",
-    "main.f05e0b03.js.map": "/tofa_react/static/js/main.f05e0b03.js.map",
-    "65.1be9504b.chunk.js.map": "/tofa_react/static/js/65.1be9504b.chunk.js.map",
-    "390.07c88f42.chunk.js.map": "/tofa_react/static/js/390.07c88f42.chunk.js.map",
-    "763.352f7839.chunk.js.map": "/tofa_react/static/js/763.352f7839.chunk.js.map",
-    "262.39bb4903.chunk.js.map": "/tofa_react/static/js/262.39bb4903.chunk.js.map",
-    "113.4c81f153.chunk.js.map": "/tofa_react/static/js/113.4c81f153.chunk.js.map",
+    "main.227f27a0.js.map": "/tofa_react/static/js/main.227f27a0.js.map",
+    "852.e5c3e801.chunk.js.map": "/tofa_react/static/js/852.e5c3e801.chunk.js.map",
+    "327.e35accbf.chunk.js.map": "/tofa_react/static/js/327.e35accbf.chunk.js.map",
+    "396.8b7f99b6.chunk.js.map": "/tofa_react/static/js/396.8b7f99b6.chunk.js.map",
+    "390.f42c0c83.chunk.js.map": "/tofa_react/static/js/390.f42c0c83.chunk.js.map",
+    "763.21e7b9b4.chunk.js.map": "/tofa_react/static/js/763.21e7b9b4.chunk.js.map",
+    "180.62b19731.chunk.js.map": "/tofa_react/static/js/180.62b19731.chunk.js.map",
+    "983.c46b5280.chunk.js.map": "/tofa_react/static/js/983.c46b5280.chunk.js.map",
+    "34.dcaafc00.chunk.js.map": "/tofa_react/static/js/34.dcaafc00.chunk.js.map",
     "688.43e2c47e.chunk.css.map": "/tofa_react/static/css/688.43e2c47e.chunk.css.map"
   },
   "entrypoints": [
     "static/css/main.627e9920.css",
-    "static/js/main.f05e0b03.js"
+    "static/js/main.227f27a0.js"
   ]
 }
