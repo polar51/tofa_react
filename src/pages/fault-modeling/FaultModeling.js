@@ -54,13 +54,7 @@ const FaultModeling = () => {
               </h2>
 
               <div className="modeling">
-                <button
-                  onClick={() => {
-                    console.log(methods.getValues());
-                    debugger;
-                  }}
-                  type="button"
-                >
+                <button onClick={() => {}} type="button">
                   filter
                 </button>
                 <div className="md_graph f_cl">
