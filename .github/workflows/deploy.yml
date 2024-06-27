@@ -1,29 +1,34 @@
-name: Deploy React App to GitHub Pages
+name: NodeJS with Webpack
 
 on:
+  # step2 라는 브랜치에 커밋을 push할 때 마다 실행되도록 합니다.
   push:
-    branches:
-      - master  # 배포할 브랜치 설정
+    branches: [master]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  # deploy 라는 job 입니다.
+  # 안에는 배포에 필요한 과정들을 기술하면 됩니다!
+  deploy:
+    runs-on: ubuntu-latest # 우분투에서 실행
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      # 레포지토리의 코드를 사용하기 위해 씁니다. 이게 없으면 빈 폴더에요!
+      - uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+      # node.js 를 사용합니다.
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18 # 버전은 입맛대로 바꾸세요
 
-      - name: Install dependencies
-        run: npm install
+      - run: npm ci # package-lock.json 에 적혀있는 패키지를 그~대로 설치합니다.
+      - run: npm run build-step2 # package.json에 빌드 스크립트를 여기 적으세요
 
-      - name: Build the React app
-        run: npm run build
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      # publish_dir에 들어있는 파일들을 gh-pages 브랜치에 올려줍니다.
+      - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./dist
