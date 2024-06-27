@@ -1,0 +1,18 @@
+{
+  "Thunderstorm":"rain",
+  "Drizzle":"rain",
+  "Rain":"rain",
+  "Snow":"snow",
+  "Mist":"cloudy",
+  "Smoke":"cloudy",
+  "Haze":"cloudy",
+  "Dust":"cloudy",
+  "Fog"	:"cloudy",
+  "Sand":"cloudy",
+  "Dust":"cloudy",
+  "Ash":"cloudy",
+  "Squall": "cloudy",
+  "Tornado":"rain",
+  "Clear": "sunny",
+  "Clouds": "cloudy"
+}
