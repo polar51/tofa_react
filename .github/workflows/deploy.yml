@@ -20,6 +20,7 @@ jobs:
       - name: Copy branch
         uses: actions/checkout@v3
 
+      # node 버전 설정 및 인스톨
       - name: Set Node js
         uses: actions/setup-node@v3
         with:

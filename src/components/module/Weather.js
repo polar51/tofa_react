@@ -6,11 +6,11 @@ const Weather = () => {
   const { data } = useWeatherGet();
   const weatherInfo = data.data;
   const { data: weatherIcon } = useWeatherIconGet();
-  const stauts = weatherIcon.data[weatherInfo.weather[0].main];
+  const status = weatherIcon.data[weatherInfo.weather[0].main];
 
   const getIconUrl = useCallback(() => {
-    return `https://humetro.tofa.kr/images/${stauts}.png`;
-  }, [stauts]);
+    return `https://humetro.tofa.kr/images/${status}.png`;
+  }, [status]);
 
   const tempCreator = useCallback(temp => {
     if (temp) {
@@ -25,7 +25,7 @@ const Weather = () => {
       <div
         id="weather"
         className={
-          stauts.length > 0 ? styles.weatherBox : styles.weatherBoxTest
+          status.length > 0 ? styles.weatherBox : styles.weatherBoxTest
         }
       >
         <i
